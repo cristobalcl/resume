@@ -1,0 +1,130 @@
+config:
+    language: "english"
+    paper: "a4"
+    font-size: 12pt
+    color: "blue"
+    outfile: cristobal-resume
+
+first_name: "Cristóbal"
+family_name: "Carnero Liñán"
+
+quote:
+    line: "Creativity is intelligence having fun."
+    author: Albert Einstein
+
+personal_info:
+    address1: "Calle Grilo 13, 1ºB"
+    address2: "29007 Málaga, Spain"
+    mobile: "+34 655 52 79 11"
+    email: "ccarnerolinan@gmail.com"
+    webs:
+        - name: "Personal web"
+          url: "http://cristóbal.com"
+        - name: "LinkedIn"
+          url: "http://es.linkedin.com/in/ccarnerolinan/"
+    birth: "12th February, 1981"
+    photo: "cristobal.png"
+
+summary: "More than 10 years of professional experience in the software industry and university research groups. Expertise in developing, deploy and manage server-side software and web services."
+
+education:
+    - range: "2009 – 2011"
+      title: "Master in Software Engineer and Artificial Intelligence"
+      organization: "Universidad de Málaga"
+      comments: ""
+    - range: "2002 – 2007"
+      title: "Computer and Software Engineering"
+      organization: "Universidad de Málaga"
+      comments: "5-year university degree. Bachelor Thesis approved with Special Distinction."
+
+experience:
+    - range: "2014 – 2015"
+      company: "Axafone"
+      position: "Consultant"
+      comments:
+        - "Web technology consultancy."
+        - "Customized web crawlers."
+        - "Speaker."
+    - range: "2013 – 2014"
+      company: "CursosDeSEO"
+      position: "Entrepreneur, DevOps"
+      comments: "Search engine of courses from different platforms and formats."
+    - range: "2011 – 2013"
+      company: "Melomics Media"
+      position: "DevOps, System Administrator"
+      comments:
+        - Server side development and deploy of a massive online music repository, with searches, streaming, purchases and public API.
+        - Administration of several Debian servers.
+        - Development and deploy of automatic video edition software with additional post-processing capacities as chroma key, effects, titles, subtitles, publishing,...
+    - range: "2009 – 2011"
+      company: "Universidad de Málaga"
+      position: "Researcher"
+      comments: Computer vision research in the department of <*“Computational Intelligence and Image Analysis”*>, managed by José Muñoz Perez and Enrique Dominguez Merino.
+    - range: "2007 – 2009"
+      company: "Tedial S.L."
+      position: "Software Developer, System Administrator"
+      comments:
+        - Server-side media storage technologies.
+        - Authentication, authorization, and access control.
+        - Management of surveillance cameras.
+        - Deployment of software and administration of several SuSE Enterprise Server installations.
+    - range: "2005 – 2006"
+      company: "Novasoft"
+      position: "Software and Web Developer"
+      comments: Educational video games.
+
+thesis:
+    - name: "Master Thesis"
+      title: "Shape recognition through new convexity descriptors"
+      supervisors: "José Muñoz Perez, Enrique Dominguez Merino"
+      description: "For this project several new convexity descriptors were devised. Then they were tested in the recognition of the <*American Sign Language*> used by deaf people."
+    - name: "Bachelor Thesis"
+      title: "A Video Surveillance System for Fall Detection"
+      supervisors: "José Muñoz Perez"
+      description: "Development of a video surveillance software to automatically detect the fall of persons."
+
+free_software:
+    - range: "Since 2014"
+      name: "WooDPD"
+      url: "http://woodpdplugin.com"
+      description: "WordPress Plugin to integrate DPD purchases in WooCommerce."
+    - range: "Since 2013"
+      name: "OrigamiPress"
+      url: "http://origamipress.com"
+      description: "Blog tool, publishing platform, and CMS developed in Python. Yet to be published."
+    - range: "Since 2017"
+      name: "cvBlob"
+      url: "http://woodpdplugin.com"
+      description: "Blob library for OpenCV, widely used in computer vision and robotic research."
+
+languages:
+    - lang: "Spanish"
+      level: "Native"
+    - lang: "English"
+      level: "Fluent"
+
+computer_skills:
+    - Languages: "C, C++, Python, Java, Bash, HTML5, CSS, JSON, JavaScript, PHP, ASP, Delphi, Octave, Matlab, ActionScript, Assembly (Intel x86, AT&T)."
+    - Databases: "Oracle, MySQL, MongoDB, Redis, Memcached."
+    - "Web servers": "Apache, Nginx."
+    - Environments: "Vim, GDB, Make, CMake, KDevelop, Eclipse, Visual Studio. Mercurial, Git, Subversion, CVS."
+    - Frameworks: "Pyramid, web.py, Elasticsearch, Scrapy, Bootstrap, Mako, Supervisor, Celery, Cornice, WordPress, OpenCV, OpenGL, OAuth."
+    - APIs: "PayPal, Google Wallet, Braintree."
+    - SO: "GNU/Linux (SuSE Enterprise Server, Debian, Ubuntu), Windows."
+    - Others: "LATEX, Doxygen, LibreOffice, Inkscape, Gimp, Krita, Photoshop, Flash, Dreamweaver, VMWare."
+
+personal_skills:
+    - Engineering:
+        - Ability to find creative solutions.
+        - Strong analytical, able to anticipate issues, resolve concerns and improve efficiency.
+        - Good software engineering skills.
+        - Care of coding standards.
+        - Eager to learn and develop new skills.
+
+    - Others:
+        - Ability to work without direct supervision.
+        - Skilled in building excellent rapport with team members and clients.
+        - Great verbal and written communication skills (wide experience in both Spanish and English).
+        - Professional experience in public speaking.
+
+interests: "GNU/Linux, web servers, web spiders, image processing, computer vision, computer graphics, artificial intelligence, developing compilers, security."
