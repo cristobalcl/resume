@@ -107,18 +107,25 @@ Computer skills
 
 **Languages:**
 	C, C++, Python, Java, Bash, HTML5, CSS, JSON, JavaScript, PHP, ASP, Delphi, Octave, Matlab, ActionScript, Assembly (Intel x86, AT&T).
+
 **Databases:**
 	Oracle, MySQL, MongoDB, Redis, Memcached.
+
 **Web servers:**
 	Apache, Nginx.
+
 **Environments:**
 	Vim, GDB, Make, CMake, KDevelop, Eclipse, Visual Studio. Mercurial, Git, Subversion, CVS.
+
 **Frameworks:**
 	Pyramid, web.py, Elasticsearch, Scrapy, Bootstrap, Mako, Supervisor, Celery, Cornice, WordPress, OpenCV, OpenGL, OAuth.
+
 **APIs:**
 	PayPal, Google Wallet, Braintree.
+
 **SO:**
 	GNU/Linux (SuSE Enterprise Server, Debian, Ubuntu), Windows.
+
 **Others:**
 	LATEX, Doxygen, LibreOffice, Inkscape, Gimp, Krita, Photoshop, Flash, Dreamweaver, VMWare.
 

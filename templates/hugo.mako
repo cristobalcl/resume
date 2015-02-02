@@ -90,8 +90,8 @@ Qualities
 
 Computer skills
 ---------------
-
 % for skills in computer_skills:
+
 **${skills.keys()[0]}:**
 	${skills.values()[0]}
 % endfor

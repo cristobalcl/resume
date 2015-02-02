@@ -43,6 +43,15 @@ def main():
 		f.write(mdTemplate.render(**resume))
 
 	texTemplate = Template(
+				filename="templates/hugo.mako",
+				input_encoding="utf-8",
+				output_encoding="utf-8",
+				encoding_errors="replace"
+				)
+	with open(args.tmp+"/resume.hugo", "w") as f:
+		f.write(texTemplate.render(**resume))
+
+	texTemplate = Template(
 				filename="templates/latex.mako",
 				input_encoding="utf-8",
 				output_encoding="utf-8",

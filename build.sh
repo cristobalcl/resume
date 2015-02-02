@@ -13,3 +13,4 @@ tools/shrinkpdf2 $tmp/resume.pdf output/${outfile}.pdf
 
 pandoc $tmp/resume.md -o output/${outfile}.odt
 pandoc $tmp/resume.md -o output/${outfile}.docx
+cp $tmp/resume.hugo output/cv.md
