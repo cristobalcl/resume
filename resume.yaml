@@ -95,7 +95,7 @@ free_software:
       description: "Blog tool, publishing platform, and CMS developed in Python. Yet to be published."
     - range: "Since 2017"
       name: "cvBlob"
-      url: "http://woodpdplugin.com"
+      url: "http://cvblob.googlecode.com"
       description: "Blob library for OpenCV, widely used in computer vision and robotic research."
 
 languages:

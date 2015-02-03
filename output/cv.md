@@ -91,7 +91,7 @@ Free Software Projects
 * Since 2013 **OrigamiPress**, <http://origamipress.com>.
 
 	> Blog tool, publishing platform, and CMS developed in Python. Yet to be published.
-* Since 2017 **cvBlob**, <http://woodpdplugin.com>.
+* Since 2017 **cvBlob**, <http://cvblob.googlecode.com>.
 
 	> Blob library for OpenCV, widely used in computer vision and robotic research.
 
