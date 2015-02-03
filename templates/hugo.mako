@@ -14,6 +14,8 @@ date: "${datetime.date.today().isoformat()}"
 slug: "cv"
 ---
 
+[Download .PDF ⬇](${config["download_pdf"]})
+
 > *“${quote["line"]}”* – ${quote["author"]}
 
 * **Address:** ${personal_info["address1"]}, ${personal_info["address2"]}

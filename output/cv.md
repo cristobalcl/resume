@@ -1,9 +1,11 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2015-02-02"
+date: "2015-02-03"
 slug: "cv"
 ---
+
+[Download .PDF ⬇](https://github.com/cristobalcl/resume/raw/master/output/cristobal-resume.pdf)
 
 > *“Creativity is intelligence having fun.”* – Albert Einstein
 
@@ -127,7 +129,7 @@ Computer skills
 	GNU/Linux (SuSE Enterprise Server, Debian, Ubuntu), Windows.
 
 **Others:**
-	LATEX, Doxygen, LibreOffice, Inkscape, Gimp, Krita, Photoshop, Flash, Dreamweaver, VMWare.
+	LaTeX, Doxygen, LibreOffice, Inkscape, Gimp, Krita, Photoshop, Flash, Dreamweaver, VMWare.
 
 Personal skills
 ---------------
