@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2015-02-03"
+date: "2015-02-24"
 slug: "cv"
 ---
 
@@ -32,12 +32,17 @@ Education
 Experience
 ==========
 
+* Since 2015 **RegaloInteligente**, *Founder, DevOps*.
+
+	+ Search engine of gifts with parameters like gender and age, and filter for prices.
+	+ Web and Android applications (available in Google Play).
+	+ Twitter bot with auto posting and automatic reply.
 * 2014 – 2015 **Axafone**, *Consultant*.
 
 	+ Web technology consultancy.
 	+ Customized web crawlers.
 	+ Speaker.
-* 2013 – 2014 **CursosDeSEO**, *Entrepreneur, DevOps*.
+* 2013 – 2014 **CursosDeSEO**, *Founder, DevOps*.
 
 	> Search engine of courses from different platforms and formats.
 * 2011 – 2013 **Melomics Media**, *DevOps, System Administrator*.
@@ -108,7 +113,7 @@ Computer skills
 ---------------
 
 **Languages:**
-	C, C++, Python, Java, Bash, HTML5, CSS, JSON, JavaScript, PHP, ASP, Delphi, Octave, Matlab, ActionScript, Assembly (Intel x86, AT&T).
+	C, C++, Python, Java, Bash, HTML5, CSS3, JSON, JavaScript, SQL, PHP, ASP, Delphi, Octave, Matlab, ActionScript, Assembly (Intel x86, AT&T).
 
 **Databases:**
 	Oracle, MySQL, MongoDB, Redis, Memcached.
@@ -117,16 +122,19 @@ Computer skills
 	Apache, Nginx.
 
 **Environments:**
-	Vim, GDB, Make, CMake, KDevelop, Eclipse, Visual Studio. Mercurial, Git, Subversion, CVS.
+	Vim, GDB, Make, CMake, Android Studio, Eclipse, KDevelop, Visual Studio. Mercurial, Git, Subversion, CVS.
 
 **Frameworks:**
 	Pyramid, web.py, Elasticsearch, Scrapy, Bootstrap, Mako, Supervisor, Celery, Cornice, WordPress, OpenCV, OpenGL, OAuth.
 
+**Technologies:**
+	RESTful Web Services, Ajax.
+
 **APIs:**
-	PayPal, Google Wallet, Braintree.
+	PayPal, Google Wallet, Amazon, Facebook, Twitter, Braintree.
 
 **SO:**
-	GNU/Linux (SuSE Enterprise Server, Debian, Ubuntu), Windows.
+	GNU/Linux (SuSE Enterprise Server, Debian, Ubuntu), Android, Windows.
 
 **Others:**
 	LaTeX, Doxygen, LibreOffice, Inkscape, Gimp, Krita, Photoshop, Flash, Dreamweaver, VMWare.

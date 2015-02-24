@@ -39,6 +39,13 @@ education:
       comments: "5-year university degree. Bachelor Thesis approved with Special Distinction."
 
 experience:
+    - range: "Since 2015"
+      company: "RegaloInteligente"
+      position: "Founder, DevOps"
+      comments:
+          - "Search engine of gifts with parameters like gender and age, and filter for prices."
+          - "Web and Android applications (available in Google Play)."
+          - "Twitter bot with auto posting and automatic reply."
     - range: "2014 – 2015"
       company: "Axafone"
       position: "Consultant"
@@ -48,7 +55,7 @@ experience:
         - "Speaker."
     - range: "2013 – 2014"
       company: "CursosDeSEO"
-      position: "Entrepreneur, DevOps"
+      position: "Founder, DevOps"
       comments: "Search engine of courses from different platforms and formats."
     - range: "2011 – 2013"
       company: "Melomics Media"
@@ -105,13 +112,14 @@ languages:
       level: "Fluent"
 
 computer_skills:
-    - Languages: "C, C++, Python, Java, Bash, HTML5, CSS, JSON, JavaScript, PHP, ASP, Delphi, Octave, Matlab, ActionScript, Assembly (Intel x86, AT&T)."
+    - Languages: "C, C++, Python, Java, Bash, HTML5, CSS3, JSON, JavaScript, SQL, PHP, ASP, Delphi, Octave, Matlab, ActionScript, Assembly (Intel x86, AT&T)."
     - Databases: "Oracle, MySQL, MongoDB, Redis, Memcached."
     - "Web servers": "Apache, Nginx."
-    - Environments: "Vim, GDB, Make, CMake, KDevelop, Eclipse, Visual Studio. Mercurial, Git, Subversion, CVS."
+    - Environments: "Vim, GDB, Make, CMake, Android Studio, Eclipse, KDevelop, Visual Studio. Mercurial, Git, Subversion, CVS."
     - Frameworks: "Pyramid, web.py, Elasticsearch, Scrapy, Bootstrap, Mako, Supervisor, Celery, Cornice, WordPress, OpenCV, OpenGL, OAuth."
-    - APIs: "PayPal, Google Wallet, Braintree."
-    - SO: "GNU/Linux (SuSE Enterprise Server, Debian, Ubuntu), Windows."
+    - Technologies: "RESTful Web Services, Ajax."
+    - APIs: "PayPal, Google Wallet, Amazon, Facebook, Twitter, Braintree."
+    - SO: "GNU/Linux (SuSE Enterprise Server, Debian, Ubuntu), Android, Windows."
     - Others: "LaTeX, Doxygen, LibreOffice, Inkscape, Gimp, Krita, Photoshop, Flash, Dreamweaver, VMWare."
 
 personal_skills:
