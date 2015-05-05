@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2015-02-24"
+date: "2015-05-05"
 slug: "cv"
 ---
 
@@ -32,7 +32,7 @@ Education
 Experience
 ==========
 
-* Since 2015 **RegaloInteligente**, *Founder, DevOps*.
+* Since 2015 **RegaloInteligente**, *Founder*.
 
 	+ Search engine of gifts with parameters like gender and age, and filter for prices.
 	+ Web and Android applications (available in Google Play).
@@ -42,18 +42,18 @@ Experience
 	+ Web technology consultancy.
 	+ Customized web crawlers.
 	+ Speaker.
-* 2013 – 2014 **CursosDeSEO**, *Founder, DevOps*.
+* 2013 – 2014 **CursosDeSEO**, *Founder*.
 
 	> Search engine of courses from different platforms and formats.
-* 2011 – 2013 **Melomics Media**, *DevOps, System Administrator*.
+* 2011 – 2013 **Melomics Media**, *Backend Developer, DevOps*.
 
-	+ Server side development and deploy of a massive online music repository, with searches, streaming, purchases and public API.
-	+ Administration of several Debian servers.
-	+ Development and deploy of automatic video edition software with additional post-processing capacities as chroma key, effects, titles, subtitles, publishing,...
+	+ Server side development and deployment of a massive online music repository, with search, streaming, purchases and public API.
+	+ Administration of cluster of Debian servers.
+	+ Development and deployment of automatic video edition software with additional post-processing capabilities as chroma key, effects, titles, subtitles, publishing,...
 * 2009 – 2011 **Universidad de Málaga**, *Researcher*.
 
 	> Computer vision research in the department of *“Computational Intelligence and Image Analysis”*, managed by José Muñoz Perez and Enrique Dominguez Merino.
-* 2007 – 2009 **Tedial S.L.**, *Software Developer, System Administrator*.
+* 2007 – 2009 **Tedial S.L.**, *Backend Developer, System Administrator*.
 
 	+ Server-side media storage technologies.
 	+ Authentication, authorization, and access control.

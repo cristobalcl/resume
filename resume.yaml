@@ -41,7 +41,7 @@ education:
 experience:
     - range: "Since 2015"
       company: "RegaloInteligente"
-      position: "Founder, DevOps"
+      position: "Founder"
       comments:
           - "Search engine of gifts with parameters like gender and age, and filter for prices."
           - "Web and Android applications (available in Google Play)."
@@ -55,22 +55,22 @@ experience:
         - "Speaker."
     - range: "2013 – 2014"
       company: "CursosDeSEO"
-      position: "Founder, DevOps"
+      position: "Founder"
       comments: "Search engine of courses from different platforms and formats."
     - range: "2011 – 2013"
       company: "Melomics Media"
-      position: "DevOps, System Administrator"
+      position: "Backend Developer, DevOps"
       comments:
-        - Server side development and deploy of a massive online music repository, with searches, streaming, purchases and public API.
-        - Administration of several Debian servers.
-        - Development and deploy of automatic video edition software with additional post-processing capacities as chroma key, effects, titles, subtitles, publishing,...
+        - Server side development and deployment of a massive online music repository, with search, streaming, purchases and public API.
+        - Administration of cluster of Debian servers.
+        - Development and deployment of automatic video edition software with additional post-processing capabilities as chroma key, effects, titles, subtitles, publishing,...
     - range: "2009 – 2011"
       company: "Universidad de Málaga"
       position: "Researcher"
       comments: Computer vision research in the department of <*“Computational Intelligence and Image Analysis”*>, managed by José Muñoz Perez and Enrique Dominguez Merino.
     - range: "2007 – 2009"
       company: "Tedial S.L."
-      position: "Software Developer, System Administrator"
+      position: "Backend Developer, System Administrator"
       comments:
         - Server-side media storage technologies.
         - Authentication, authorization, and access control.
