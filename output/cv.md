@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2015-05-05"
+date: "2015-08-20"
 slug: "cv"
 ---
 
@@ -9,7 +9,6 @@ slug: "cv"
 
 > *“Creativity is intelligence having fun.”* – Albert Einstein
 
-* **Address:** Calle Grilo 13, 1ºB, 29007 Málaga, Spain
 * **Phone:** +34 655 52 79 11
 * **Email:** [ccarnerolinan@gmail.com](ccarnerolinan@gmail.com)
 * **Personal web:** [http://cristóbal.com](http://cristóbal.com)
@@ -19,7 +18,7 @@ slug: "cv"
 Summary
 =======
 
-More than 10 years of professional experience in the software industry and university research groups. Expertise in developing, deploy and manage server-side software and web services.
+More than 10 years of professional experience in the software industry and university research groups. Expertise in develop, deploy and manage server-side software and web services.
 
 Education
 =========
@@ -32,6 +31,9 @@ Education
 Experience
 ==========
 
+* Since July 2015 **VATIA Energía**, *Full Stack Developer*.
+
+	+ *Energy Sequence*: web platform for automatic *Virtual Energetic Audit*, *Energetic Benchmarking*, and more.
 * Since 2015 **RegaloInteligente**, *Founder*.
 
 	+ Search engine of gifts with parameters like gender and age, and filter for prices.
@@ -96,7 +98,7 @@ Free Software Projects
 * Since 2013 **OrigamiPress**, <http://origamipress.com>.
 
 	> Blog tool, publishing platform, and CMS developed in Python. Yet to be published.
-* Since 2017 **cvBlob**, <http://cvblob.googlecode.com>.
+* Since 2009 **cvBlob**, <http://cvblob.googlecode.com>.
 
 	> Blob library for OpenCV, widely used in computer vision and robotic research.
 
@@ -113,10 +115,10 @@ Computer skills
 ---------------
 
 **Languages:**
-	C, C++, Python, Java, Bash, HTML5, CSS3, JSON, JavaScript, SQL, PHP, ASP, Delphi, Octave, Matlab, ActionScript, Assembly (Intel x86, AT&T).
+	C, C++, Python, Bash, JavaScript, HTML5, CSS3, Java, JSON, SQL, PHP, ASP, Delphi, Octave, Matlab, ActionScript, Assembly (Intel x86, AT&T).
 
 **Databases:**
-	Oracle, MySQL, MongoDB, Redis, Memcached.
+	Oracle, MySQL, MongoDB, Redis, Memcached, ElasticSearch.
 
 **Web servers:**
 	Apache, Nginx.
@@ -125,19 +127,22 @@ Computer skills
 	Vim, GDB, Make, CMake, Android Studio, Eclipse, KDevelop, Visual Studio. Mercurial, Git, Subversion, CVS.
 
 **Frameworks:**
-	Pyramid, web.py, Elasticsearch, Scrapy, Bootstrap, Mako, Supervisor, Celery, Cornice, WordPress, OpenCV, OpenGL, OAuth.
+	Pyramid, Node.js, Express.js, Bootstrap, Mako, Celery, Cornice, Scrapy, WordPress, OpenCV, OpenGL, OAuth.
+
+**Deployment:**
+	VirtualEnv, Supervisor, Fabric, Upstart, Docker/Dokku, Vagrant.
 
 **Technologies:**
 	RESTful Web Services, Ajax.
 
 **APIs:**
-	PayPal, Google Wallet, Amazon, Facebook, Twitter, Braintree.
+	PayPal, Google Wallet, Amazon, Facebook, Twitter, Braintree, Telegram.
 
 **SO:**
 	GNU/Linux (SuSE Enterprise Server, Debian, Ubuntu), Android, Windows.
 
 **Others:**
-	LaTeX, Doxygen, LibreOffice, Inkscape, Gimp, Krita, Photoshop, Flash, Dreamweaver, VMWare.
+	LaTeX, Doxygen, LibreOffice, Inkscape, Gimp, Krita, Photoshop, Flash.
 
 Personal skills
 ---------------
@@ -160,4 +165,4 @@ Personal skills
 Interests
 =========
 
-GNU/Linux, web servers, web spiders, image processing, computer vision, computer graphics, artificial intelligence, developing compilers, security.
+GNU/Linux, web servers, web spiders, image processing, computer vision, computer graphics, artificial intelligence, compilers development, security.

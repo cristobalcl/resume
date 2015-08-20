@@ -23,7 +23,6 @@ ${first_name} ${family_name} – Resume
 
 > *“${quote["line"]}”* – ${quote["author"]}
 
-* **Address:** ${personal_info["address1"]}, ${personal_info["address2"]}
 * **Phone:** ${personal_info["mobile"]}
 * **Email:** [${personal_info["email"]}](${personal_info["email"]})
 % for web in personal_info["webs"]:

@@ -26,7 +26,6 @@
 \firstname{${first_name}}
 \familyname{${family_name}}
 %%\title{}
-\address{${personal_info["address1"]}}{${personal_info["address2"]}}
 \mobile{${personal_info["mobile"]}}
 %%\phone{}
 %%\fax{}

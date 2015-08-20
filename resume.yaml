@@ -14,8 +14,6 @@ quote:
     author: Albert Einstein
 
 personal_info:
-    address1: "Calle Grilo 13, 1ºB"
-    address2: "29007 Málaga, Spain"
     mobile: "+34 655 52 79 11"
     email: "ccarnerolinan@gmail.com"
     webs:
@@ -26,7 +24,7 @@ personal_info:
     birth: "12th February, 1981"
     photo: "cristobal.png"
 
-summary: "More than 10 years of professional experience in the software industry and university research groups. Expertise in developing, deploy and manage server-side software and web services."
+summary: "More than 10 years of professional experience in the software industry and university research groups. Expertise in develop, deploy and manage server-side software and web services."
 
 education:
     - range: "2009 – 2011"
@@ -39,6 +37,11 @@ education:
       comments: "5-year university degree. Bachelor Thesis approved with Special Distinction."
 
 experience:
+    - range: "Since July 2015"
+      company: "VATIA Energía"
+      position: "Full Stack Developer"
+      comments:
+          - "<*Energy Sequence*>: web platform for automatic <*Virtual Energetic Audit*>, <*Energetic Benchmarking*>, and more."
     - range: "Since 2015"
       company: "RegaloInteligente"
       position: "Founder"
@@ -100,7 +103,7 @@ free_software:
       name: "OrigamiPress"
       url: "http://origamipress.com"
       description: "Blog tool, publishing platform, and CMS developed in Python. Yet to be published."
-    - range: "Since 2017"
+    - range: "Since 2009"
       name: "cvBlob"
       url: "http://cvblob.googlecode.com"
       description: "Blob library for OpenCV, widely used in computer vision and robotic research."
@@ -112,15 +115,16 @@ languages:
       level: "Fluent"
 
 computer_skills:
-    - Languages: "C, C++, Python, Java, Bash, HTML5, CSS3, JSON, JavaScript, SQL, PHP, ASP, Delphi, Octave, Matlab, ActionScript, Assembly (Intel x86, AT&T)."
-    - Databases: "Oracle, MySQL, MongoDB, Redis, Memcached."
+    - Languages: "C, C++, Python, Bash, JavaScript, HTML5, CSS3, Java, JSON, SQL, PHP, ASP, Delphi, Octave, Matlab, ActionScript, Assembly (Intel x86, AT&T)."
+    - Databases: "Oracle, MySQL, MongoDB, Redis, Memcached, ElasticSearch."
     - "Web servers": "Apache, Nginx."
     - Environments: "Vim, GDB, Make, CMake, Android Studio, Eclipse, KDevelop, Visual Studio. Mercurial, Git, Subversion, CVS."
-    - Frameworks: "Pyramid, web.py, Elasticsearch, Scrapy, Bootstrap, Mako, Supervisor, Celery, Cornice, WordPress, OpenCV, OpenGL, OAuth."
+    - Frameworks: "Pyramid, Node.js, Express.js, Bootstrap, Mako, Celery, Cornice, Scrapy, WordPress, OpenCV, OpenGL, OAuth."
+    - Deployment: "VirtualEnv, Supervisor, Fabric, Upstart, Docker/Dokku, Vagrant."
     - Technologies: "RESTful Web Services, Ajax."
-    - APIs: "PayPal, Google Wallet, Amazon, Facebook, Twitter, Braintree."
+    - APIs: "PayPal, Google Wallet, Amazon, Facebook, Twitter, Braintree, Telegram."
     - SO: "GNU/Linux (SuSE Enterprise Server, Debian, Ubuntu), Android, Windows."
-    - Others: "LaTeX, Doxygen, LibreOffice, Inkscape, Gimp, Krita, Photoshop, Flash, Dreamweaver, VMWare."
+    - Others: "LaTeX, Doxygen, LibreOffice, Inkscape, Gimp, Krita, Photoshop, Flash."
 
 personal_skills:
     - Engineering:
@@ -136,4 +140,4 @@ personal_skills:
         - Great verbal and written communication skills (wide experience in both Spanish and English).
         - Professional experience in public speaking.
 
-interests: "GNU/Linux, web servers, web spiders, image processing, computer vision, computer graphics, artificial intelligence, developing compilers, security."
+interests: "GNU/Linux, web servers, web spiders, image processing, computer vision, computer graphics, artificial intelligence, compilers development, security."
