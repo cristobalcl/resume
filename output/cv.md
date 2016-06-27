@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2015-08-20"
+date: "2016-06-27"
 slug: "cv"
 ---
 
@@ -31,9 +31,15 @@ Education
 Experience
 ==========
 
-* Since July 2015 **VATIA Energía**, *Full Stack Developer*.
+* Since March 2016 **Mukabe**, *Founder & CTO*.
 
-	+ *Energy Sequence*: web platform for automatic *Virtual Energetic Audit*, *Energetic Benchmarking*, and more.
+	+ *Mukabe* is the new way of navigate through information, the new social and online organization, and the new way to get visibility for you, your projects or your company.
+* Since February 2016 **VATIA Energía**, *Software Engineering Manager*.
+
+	+ Web development & DevOps.
+* July 2015 – February 2016 **VATIA Energía**, *Full Stack Developer*.
+
+	+ Web platform for automatic *Virtual Energetic Audit*, *Energetic Benchmarking*, and more.
 * Since 2015 **RegaloInteligente**, *Founder*.
 
 	+ Search engine of gifts with parameters like gender and age, and filter for prices.
@@ -130,7 +136,7 @@ Computer skills
 	Pyramid, Node.js, Express.js, Bootstrap, Mako, Celery, Cornice, Scrapy, WordPress, OpenCV, OpenGL, OAuth.
 
 **Deployment:**
-	VirtualEnv, Supervisor, Fabric, Upstart, Docker/Dokku, Vagrant.
+	Ansible, Fabric, VirtualEnv, Supervisor, Upstart, Docker/Dokku, Vagrant.
 
 **Technologies:**
 	RESTful Web Services, Ajax.
@@ -138,8 +144,8 @@ Computer skills
 **APIs:**
 	PayPal, Google Wallet, Amazon, Facebook, Twitter, Braintree, Telegram.
 
-**SO:**
-	GNU/Linux (SuSE Enterprise Server, Debian, Ubuntu), Android, Windows.
+**Platforms:**
+	GNU/Linux (SuSE Enterprise Server, Debian, Ubuntu), Android. AWS, DigitalOcean.
 
 **Others:**
 	LaTeX, Doxygen, LibreOffice, Inkscape, Gimp, Krita, Photoshop, Flash.

@@ -37,11 +37,21 @@ education:
       comments: "5-year university degree. Bachelor Thesis approved with Special Distinction."
 
 experience:
-    - range: "Since July 2015"
+    - range: "Since March 2016"
+      company: "Mukabe"
+      position: "Founder & CTO"
+      comments:
+          - "<*Mukabe*> is the new way of navigate through information, the new social and online organization, and the new way to get visibility for you, your projects or your company."
+    - range: "Since February 2016"
+      company: "VATIA Energía"
+      position: "Software Engineering Manager"
+      comments:
+          - "Web development & DevOps."
+    - range: "July 2015 – February 2016"
       company: "VATIA Energía"
       position: "Full Stack Developer"
       comments:
-          - "<*Energy Sequence*>: web platform for automatic <*Virtual Energetic Audit*>, <*Energetic Benchmarking*>, and more."
+          - "Web platform for automatic <*Virtual Energetic Audit*>, <*Energetic Benchmarking*>, and more."
     - range: "Since 2015"
       company: "RegaloInteligente"
       position: "Founder"
@@ -120,10 +130,10 @@ computer_skills:
     - "Web servers": "Apache, Nginx."
     - Environments: "Vim, GDB, Make, CMake, Android Studio, Eclipse, KDevelop, Visual Studio. Mercurial, Git, Subversion, CVS."
     - Frameworks: "Pyramid, Node.js, Express.js, Bootstrap, Mako, Celery, Cornice, Scrapy, WordPress, OpenCV, OpenGL, OAuth."
-    - Deployment: "VirtualEnv, Supervisor, Fabric, Upstart, Docker/Dokku, Vagrant."
+    - Deployment: "Ansible, Fabric, VirtualEnv, Supervisor, Upstart, Docker/Dokku, Vagrant."
     - Technologies: "RESTful Web Services, Ajax."
     - APIs: "PayPal, Google Wallet, Amazon, Facebook, Twitter, Braintree, Telegram."
-    - SO: "GNU/Linux (SuSE Enterprise Server, Debian, Ubuntu), Android, Windows."
+    - Platforms: "GNU/Linux (SuSE Enterprise Server, Debian, Ubuntu), Android. AWS, DigitalOcean."
     - Others: "LaTeX, Doxygen, LibreOffice, Inkscape, Gimp, Krita, Photoshop, Flash."
 
 personal_skills:
