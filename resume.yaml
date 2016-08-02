@@ -129,7 +129,7 @@ computer_skills:
     - Databases: "Oracle, MySQL, MongoDB, Redis, Memcached, ElasticSearch."
     - "Web servers": "Apache, Nginx."
     - Environments: "Vim, GDB, Make, CMake, Android Studio, Eclipse, KDevelop, Visual Studio. Mercurial, Git, Subversion, CVS."
-    - Frameworks: "Pyramid, Node.js, Express.js, Bootstrap, Mako, Celery, Cornice, Scrapy, WordPress, OpenCV, OpenGL, OAuth."
+    - Frameworks: "Django, Pyramid, Node.js, Express.js, Bootstrap, Mako, Celery, Cornice, Scrapy, WordPress, OpenCV, OpenGL, OAuth."
     - Deployment: "Ansible, Fabric, VirtualEnv, Supervisor, Upstart, Docker/Dokku, Vagrant."
     - Technologies: "RESTful Web Services, Ajax."
     - APIs: "PayPal, Google Wallet, Amazon, Facebook, Twitter, Braintree, Telegram."

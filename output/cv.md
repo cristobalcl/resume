@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2016-06-27"
+date: "2016-08-02"
 slug: "cv"
 ---
 
@@ -133,7 +133,7 @@ Computer skills
 	Vim, GDB, Make, CMake, Android Studio, Eclipse, KDevelop, Visual Studio. Mercurial, Git, Subversion, CVS.
 
 **Frameworks:**
-	Pyramid, Node.js, Express.js, Bootstrap, Mako, Celery, Cornice, Scrapy, WordPress, OpenCV, OpenGL, OAuth.
+	Django, Pyramid, Node.js, Express.js, Bootstrap, Mako, Celery, Cornice, Scrapy, WordPress, OpenCV, OpenGL, OAuth.
 
 **Deployment:**
 	Ansible, Fabric, VirtualEnv, Supervisor, Upstart, Docker/Dokku, Vagrant.
