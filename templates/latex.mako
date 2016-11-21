@@ -68,6 +68,11 @@ ${exp["comments"]}
 \cvline{Description}{\small ${thes["description"]}}
 % endfor
 
+\section{Personal projects}
+% for proj in personal_projects:
+\cventry{${proj["range"]}}{${proj["name"]}}{\href{${proj["url"]}}{${proj["url"]}}}{}{}{${proj["description"]}}
+% endfor
+
 \section{Free Software Projects}
 % for proj in free_software:
 \cventry{${proj["range"]}}{${proj["name"]}}{\href{${proj["url"]}}{${proj["url"]}}}{}{}{${proj["description"]}}

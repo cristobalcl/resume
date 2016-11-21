@@ -37,28 +37,29 @@ education:
       comments: "5-year university degree. Bachelor Thesis approved with Special Distinction."
 
 experience:
-    - range: "Since March 2016"
-      company: "Mukabe"
-      position: "Founder & CTO"
-      comments:
-          - "<*Mukabe*> is the new way of navigate through information, the new social and online organization, and the new way to get visibility for you, your projects or your company."
+    # - range: "Since 2016"
+    #   company: "Mukabe"
+    #   position: "Founder & CTO (personal project)"
+    #   comments:
+    #       - "Full stack development & DevOps."
     - range: "Since February 2016"
       company: "VATIA Energía"
       position: "Software Engineering Manager"
       comments:
           - "Web development & DevOps."
+          - "Data analysis."
+          - "Technologies: Node.js, Python, Celery, Django, Pandas, Matplotlib, MongoDB, Ansible, Fabric."
     - range: "July 2015 – February 2016"
       company: "VATIA Energía"
       position: "Full Stack Developer"
       comments:
           - "Web platform for automatic <*Virtual Energetic Audit*>, <*Energetic Benchmarking*>, and more."
-    - range: "Since 2015"
-      company: "RegaloInteligente"
-      position: "Founder"
-      comments:
-          - "Search engine of gifts with parameters like gender and age, and filter for prices."
-          - "Web and Android applications (available in Google Play)."
-          - "Twitter bot with auto posting and automatic reply."
+    # - range: "Since 2015"
+    #   company: "RegaloInteligente"
+    #   position: "Founder (personal project)"
+    #   comments:
+    #       - "Web and Android applications (available in Google Play)."
+    #       - "Twitter bot with auto posting and automatic reply."
     - range: "2014 – 2015"
       company: "Axafone"
       position: "Consultant"
@@ -66,10 +67,10 @@ experience:
         - "Web technology consultancy."
         - "Customized web crawlers."
         - "Speaker."
-    - range: "2013 – 2014"
-      company: "CursosDeSEO"
-      position: "Founder"
-      comments: "Search engine of courses from different platforms and formats."
+    # - range: "2013 – 2014"
+    #   company: "CursosDeSEO"
+    #   position: "Founder"
+    #   comments: "Search engine of courses from different platforms and formats."
     - range: "2011 – 2013"
       company: "Melomics Media"
       position: "Backend Developer, DevOps"
@@ -104,6 +105,20 @@ thesis:
       supervisors: "José Muñoz Perez"
       description: "Development of a video surveillance software to automatically detect the fall of persons."
 
+personal_projects:
+    - range: "Since 2016"
+      name: "Mukabe"
+      url: "https://mukabe.com"
+      description: "<*Mukabe*> is the new way of navigate through information, the new social and online organization, and the new way to get visibility for you, your projects or your company. Technologies: Django, Celery, Redis, ElasticSearch, Ansible, Fabric, AWS, Social APIs (Instagram, Facebook, Google+,...)."
+    - range: "Since 2015"
+      name: "RegaloInteligente"
+      url: "http://regalointeligente.com"
+      description: "Search engine of gifts with parameters like gender and age, and filter for prices. Web and Android applications (available in Google Play). Twitter bot with auto posting and automatic reply. Telegram bot."
+    - range: "2013 – 2014"
+      name: "CursosDeSEO"
+      url: "http://cursosdeseo.net"
+      description: "Search engine of courses from different platforms and formats."
+
 free_software:
     - range: "Since 2014"
       name: "WooDPD"
@@ -125,15 +140,16 @@ languages:
       level: "Fluent"
 
 computer_skills:
-    - Languages: "C, C++, Python, Bash, JavaScript, HTML5, CSS3, Java, JSON, SQL, PHP, ASP, Delphi, Octave, Matlab, ActionScript, Assembly (Intel x86, AT&T)."
-    - Databases: "Oracle, MySQL, MongoDB, Redis, Memcached, ElasticSearch."
+    - Languages: "Python, Bash, JavaScript, HTML5, CSS3, C, C++, Java, SQL, PHP, ASP, Delphi, Octave, Matlab, ActionScript, Assembly (Intel x86, AT&T)."
+    - Databases: "MongoDB, ElasticSearch, Redis, Memcached, PostgreSQL, Oracle, MySQL."
     - "Web servers": "Apache, Nginx."
     - Environments: "Vim, GDB, Make, CMake, Android Studio, Eclipse, KDevelop, Visual Studio. Mercurial, Git, Subversion, CVS."
     - Frameworks: "Django, Pyramid, Node.js, Express.js, Bootstrap, Mako, Celery, Cornice, Scrapy, WordPress, OpenCV, OpenGL, OAuth."
-    - Deployment: "Ansible, Fabric, VirtualEnv, Supervisor, Upstart, Docker/Dokku, Vagrant."
+    - Deployment: "Ansible, Fabric, VirtualEnv, Supervisor, Upstart, Docker/Dokku, Vagrant, AWS API."
+    - "Data Analysis": "Pandas, NumPy, SciPy, Matplotlib, MapReduce."
     - Technologies: "RESTful Web Services, Ajax."
-    - APIs: "PayPal, Google Wallet, Amazon, Facebook, Twitter, Braintree, Telegram."
-    - Platforms: "GNU/Linux (SuSE Enterprise Server, Debian, Ubuntu), Android. AWS, DigitalOcean."
+    - APIs: "PayPal, Google Wallet, Amazon, Facebook, Twitter, Instagram, Braintree, Telegram."
+    - Platforms: "GNU/Linux (Ubuntu, Debian, SuSE Enterprise Server), Android. AWS, DigitalOcean."
     - Others: "LaTeX, Doxygen, LibreOffice, Inkscape, Gimp, Krita, Photoshop, Flash."
 
 personal_skills:

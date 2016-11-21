@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2016-08-02"
+date: "2016-11-21"
 slug: "cv"
 ---
 
@@ -31,28 +31,19 @@ Education
 Experience
 ==========
 
-* Since March 2016 **Mukabe**, *Founder & CTO*.
-
-	+ *Mukabe* is the new way of navigate through information, the new social and online organization, and the new way to get visibility for you, your projects or your company.
 * Since February 2016 **VATIA Energía**, *Software Engineering Manager*.
 
 	+ Web development & DevOps.
+	+ Data analysis.
+	+ Technologies: Node.js, Python, Celery, Django, Pandas, Matplotlib, MongoDB, Ansible, Fabric.
 * July 2015 – February 2016 **VATIA Energía**, *Full Stack Developer*.
 
 	+ Web platform for automatic *Virtual Energetic Audit*, *Energetic Benchmarking*, and more.
-* Since 2015 **RegaloInteligente**, *Founder*.
-
-	+ Search engine of gifts with parameters like gender and age, and filter for prices.
-	+ Web and Android applications (available in Google Play).
-	+ Twitter bot with auto posting and automatic reply.
 * 2014 – 2015 **Axafone**, *Consultant*.
 
 	+ Web technology consultancy.
 	+ Customized web crawlers.
 	+ Speaker.
-* 2013 – 2014 **CursosDeSEO**, *Founder*.
-
-	> Search engine of courses from different platforms and formats.
 * 2011 – 2013 **Melomics Media**, *Backend Developer, DevOps*.
 
 	+ Server side development and deployment of a massive online music repository, with search, streaming, purchases and public API.
@@ -95,6 +86,19 @@ Bachelor Thesis
 **Description:**
 	Development of a video surveillance software to automatically detect the fall of persons.
 
+Personal Projects
+======================
+
+* Since 2016 **Mukabe**, <https://mukabe.com>.
+
+	> *Mukabe* is the new way of navigate through information, the new social and online organization, and the new way to get visibility for you, your projects or your company. Technologies: Django, Celery, Redis, ElasticSearch, Ansible, Fabric, AWS, Social APIs (Instagram, Facebook, Google+,...).
+* Since 2015 **RegaloInteligente**, <http://regalointeligente.com>.
+
+	> Search engine of gifts with parameters like gender and age, and filter for prices. Web and Android applications (available in Google Play). Twitter bot with auto posting and automatic reply. Telegram bot.
+* 2013 – 2014 **CursosDeSEO**, <http://cursosdeseo.net>.
+
+	> Search engine of courses from different platforms and formats.
+
 Free Software Projects
 ======================
 
@@ -121,10 +125,10 @@ Computer skills
 ---------------
 
 **Languages:**
-	C, C++, Python, Bash, JavaScript, HTML5, CSS3, Java, JSON, SQL, PHP, ASP, Delphi, Octave, Matlab, ActionScript, Assembly (Intel x86, AT&T).
+	Python, Bash, JavaScript, HTML5, CSS3, C, C++, Java, SQL, PHP, ASP, Delphi, Octave, Matlab, ActionScript, Assembly (Intel x86, AT&T).
 
 **Databases:**
-	Oracle, MySQL, MongoDB, Redis, Memcached, ElasticSearch.
+	MongoDB, ElasticSearch, Redis, Memcached, PostgreSQL, Oracle, MySQL.
 
 **Web servers:**
 	Apache, Nginx.
@@ -136,16 +140,19 @@ Computer skills
 	Django, Pyramid, Node.js, Express.js, Bootstrap, Mako, Celery, Cornice, Scrapy, WordPress, OpenCV, OpenGL, OAuth.
 
 **Deployment:**
-	Ansible, Fabric, VirtualEnv, Supervisor, Upstart, Docker/Dokku, Vagrant.
+	Ansible, Fabric, VirtualEnv, Supervisor, Upstart, Docker/Dokku, Vagrant, AWS API.
+
+**Data Analysis:**
+	Pandas, NumPy, SciPy, Matplotlib, MapReduce.
 
 **Technologies:**
 	RESTful Web Services, Ajax.
 
 **APIs:**
-	PayPal, Google Wallet, Amazon, Facebook, Twitter, Braintree, Telegram.
+	PayPal, Google Wallet, Amazon, Facebook, Twitter, Instagram, Braintree, Telegram.
 
 **Platforms:**
-	GNU/Linux (SuSE Enterprise Server, Debian, Ubuntu), Android. AWS, DigitalOcean.
+	GNU/Linux (Ubuntu, Debian, SuSE Enterprise Server), Android. AWS, DigitalOcean.
 
 **Others:**
 	LaTeX, Doxygen, LibreOffice, Inkscape, Gimp, Krita, Photoshop, Flash.

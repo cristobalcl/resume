@@ -70,6 +70,15 @@ ${thes["name"]}
 	${thes["description"]}
 % endfor
 
+Personal Projects
+======================
+
+% for proj in personal_projects:
+* ${proj["range"]} **${proj["name"]}**, <${proj["url"]}>.
+
+	> ${proj["description"]}
+% endfor
+
 Free Software Projects
 ======================
 
