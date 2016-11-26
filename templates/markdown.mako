@@ -81,7 +81,13 @@ Personal Projects
 % for proj in personal_projects:
 * ${proj["range"]} **${proj["name"]}**, <${proj["url"]}>.
 
+% if isinstance(proj["description"], basestring):
 	> ${proj["description"]}
+% else:
+% for comment in proj["description"]:
+	+ ${comment}
+% endfor
+% endif
 % endfor
 
 Free Software Projects

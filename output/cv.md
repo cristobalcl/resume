@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2016-11-21"
+date: "2016-11-26"
 slug: "cv"
 ---
 
@@ -31,36 +31,37 @@ Education
 Experience
 ==========
 
-* Since February 2016 **VATIA Energía**, *Software Engineering Manager*.
+* Since July 2015 **VATIA Energía**, *Software Engineering Manager*.
 
-	+ Web development & DevOps.
-	+ Data analysis.
+	+ Web platform for automatic *Virtual Energetic Audit*, *Energetic Benchmarking*, monitoring,...
+	+ Fullstack development, DevOps & data analysis.
 	+ Technologies: Node.js, Python, Celery, Django, Pandas, Matplotlib, MongoDB, Ansible, Fabric.
-* July 2015 – February 2016 **VATIA Energía**, *Full Stack Developer*.
-
-	+ Web platform for automatic *Virtual Energetic Audit*, *Energetic Benchmarking*, and more.
 * 2014 – 2015 **Axafone**, *Consultant*.
 
 	+ Web technology consultancy.
-	+ Customized web crawlers.
+	+ Customized web crawlers (Scrapy).
 	+ Speaker.
 * 2011 – 2013 **Melomics Media**, *Backend Developer, DevOps*.
 
 	+ Server side development and deployment of a massive online music repository, with search, streaming, purchases and public API.
 	+ Administration of cluster of Debian servers.
 	+ Development and deployment of automatic video edition software with additional post-processing capabilities as chroma key, effects, titles, subtitles, publishing,...
+	+ Technologies: Python, web.py, MongoDB, ElasticSearch, Memcached. APIs: Paypal, Google Wallet, Facebook, Google+.
 * 2009 – 2011 **Universidad de Málaga**, *Researcher*.
 
-	> Computer vision research in the department of *“Computational Intelligence and Image Analysis”*, managed by José Muñoz Perez and Enrique Dominguez Merino.
+	+ Computer vision research in the department of *“Computational Intelligence and Image Analysis”*, managed by José Muñoz Perez and Enrique Dominguez Merino.
+	+ Technologies: Python, C++, OpenCV, cvBlob, Matlab, Octave.
 * 2007 – 2009 **Tedial S.L.**, *Backend Developer, System Administrator*.
 
 	+ Server-side media storage technologies.
 	+ Authentication, authorization, and access control.
 	+ Management of surveillance cameras.
 	+ Deployment of software and administration of several SuSE Enterprise Server installations.
+	+ Technologies: C++, Python, SuSE Enterprise Server, Oracle, LDAP, SOAP.
 * 2005 – 2006 **Novasoft**, *Software and Web Developer*.
 
-	> Educational video games.
+	+ Educational video games.
+	+ Technologies: Flash, ActionScript, HTML, Javascript.
 
 Master Thesis
 ===============
@@ -87,17 +88,21 @@ Bachelor Thesis
 	Development of a video surveillance software to automatically detect the fall of persons.
 
 Personal Projects
-======================
+=================
 
 * Since 2016 **Mukabe**, <https://mukabe.com>.
 
-	> *Mukabe* is the new way of navigate through information, the new social and online organization, and the new way to get visibility for you, your projects or your company. Technologies: Django, Celery, Redis, ElasticSearch, Ansible, Fabric, AWS, Social APIs (Instagram, Facebook, Google+,...).
+	+ *Mukabe* is the new way of navigate through information, the new social and online organization, and the new way to get visibility for you, your projects or your company.
+	+ Technologies: Python, Django, Celery, Redis, ElasticSearch, Ansible, Fabric, AWS, Social APIs (Instagram, Facebook, Google+,...).
 * Since 2015 **RegaloInteligente**, <http://regalointeligente.com>.
 
-	> Search engine of gifts with parameters like gender and age, and filter for prices. Web and Android applications (available in Google Play). Twitter bot with auto posting and automatic reply. Telegram bot.
+	+ Search engine of gifts with parameters like gender and age, and filter for prices.
+	+ Web and Android applications (available in Google Play). Twitter bot with auto posting and automatic reply. Telegram bot.
+	+ Technologies: Python, Pyramid, MongoDB, ElasticSearch, Amazon API, Twitter API, Telegram Bot API.
 * 2013 – 2014 **CursosDeSEO**, <http://cursosdeseo.net>.
 
-	> Search engine of courses from different platforms and formats.
+	+ Search engine of courses from different platforms and formats.
+	+ Technologies: Python, Pyramid, MongoDB, ElasticSearch, Scrapy.
 
 Free Software Projects
 ======================

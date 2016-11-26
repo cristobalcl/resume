@@ -70,7 +70,17 @@ ${exp["comments"]}
 
 \section{Personal projects}
 % for proj in personal_projects:
-\cventry{${proj["range"]}}{${proj["name"]}}{\href{${proj["url"]}}{${proj["url"]}}}{}{}{${proj["description"]}}
+	\cventry{${proj["range"]}}{${proj["name"]}}{\href{${proj["url"]}}{${proj["url"]}}}{}{}{
+% if isinstance(proj["description"], basestring):
+	${proj["description"]}
+% else:
+	\begin{itemize}
+% for comment in proj["description"]:
+		\item ${comment}
+% endfor
+	\end{itemize}
+% endif
+	}
 % endfor
 
 \section{Free Software Projects}

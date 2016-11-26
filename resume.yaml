@@ -42,18 +42,19 @@ experience:
     #   position: "Founder & CTO (personal project)"
     #   comments:
     #       - "Full stack development & DevOps."
-    - range: "Since February 2016"
+    - range: "Since July 2015"
       company: "VATIA Energía"
       position: "Software Engineering Manager"
       comments:
-          - "Web development & DevOps."
-          - "Data analysis."
-          - "Technologies: Node.js, Python, Celery, Django, Pandas, Matplotlib, MongoDB, Ansible, Fabric."
-    - range: "July 2015 – February 2016"
-      company: "VATIA Energía"
-      position: "Full Stack Developer"
-      comments:
-          - "Web platform for automatic <*Virtual Energetic Audit*>, <*Energetic Benchmarking*>, and more."
+        - "Web platform for automatic <*Virtual Energetic Audit*>, <*Energetic Benchmarking*>, monitoring,..."
+        - "Fullstack development, DevOps & data analysis."
+        - "Technologies: Node.js, Python, Celery, Django, Pandas, Matplotlib, MongoDB, Ansible, Fabric."
+    # - range: "July 2015 – February 2016"
+    #   company: "VATIA Energía"
+    #   position: "Full Stack Developer"
+    #   comments:
+    #       - "Web platform for automatic <*Virtual Energetic Audit*>, <*Energetic Benchmarking*>, and more."
+    #       - "Technologies: Node.js, Python, Celery, Django, MongoDB."
     # - range: "Since 2015"
     #   company: "RegaloInteligente"
     #   position: "Founder (personal project)"
@@ -65,7 +66,7 @@ experience:
       position: "Consultant"
       comments:
         - "Web technology consultancy."
-        - "Customized web crawlers."
+        - "Customized web crawlers (Scrapy)."
         - "Speaker."
     # - range: "2013 – 2014"
     #   company: "CursosDeSEO"
@@ -78,10 +79,13 @@ experience:
         - Server side development and deployment of a massive online music repository, with search, streaming, purchases and public API.
         - Administration of cluster of Debian servers.
         - Development and deployment of automatic video edition software with additional post-processing capabilities as chroma key, effects, titles, subtitles, publishing,...
+        - "Technologies: Python, web.py, MongoDB, ElasticSearch, Memcached. APIs: Paypal, Google Wallet, Facebook, Google+."
     - range: "2009 – 2011"
       company: "Universidad de Málaga"
       position: "Researcher"
-      comments: Computer vision research in the department of <*“Computational Intelligence and Image Analysis”*>, managed by José Muñoz Perez and Enrique Dominguez Merino.
+      comments:
+        - "Computer vision research in the department of <*“Computational Intelligence and Image Analysis”*>, managed by José Muñoz Perez and Enrique Dominguez Merino."
+        - "Technologies: Python, C++, OpenCV, cvBlob, Matlab, Octave."
     - range: "2007 – 2009"
       company: "Tedial S.L."
       position: "Backend Developer, System Administrator"
@@ -90,10 +94,13 @@ experience:
         - Authentication, authorization, and access control.
         - Management of surveillance cameras.
         - Deployment of software and administration of several SuSE Enterprise Server installations.
+        - "Technologies: C++, Python, SuSE Enterprise Server, Oracle, LDAP, SOAP."
     - range: "2005 – 2006"
       company: "Novasoft"
       position: "Software and Web Developer"
-      comments: Educational video games.
+      comments:
+        - Educational video games.
+        - "Technologies: Flash, ActionScript, HTML, Javascript."
 
 thesis:
     - name: "Master Thesis"
@@ -109,15 +116,22 @@ personal_projects:
     - range: "Since 2016"
       name: "Mukabe"
       url: "https://mukabe.com"
-      description: "<*Mukabe*> is the new way of navigate through information, the new social and online organization, and the new way to get visibility for you, your projects or your company. Technologies: Django, Celery, Redis, ElasticSearch, Ansible, Fabric, AWS, Social APIs (Instagram, Facebook, Google+,...)."
+      description:
+        - "<*Mukabe*> is the new way of navigate through information, the new social and online organization, and the new way to get visibility for you, your projects or your company."
+        - "Technologies: Python, Django, Celery, Redis, ElasticSearch, Ansible, Fabric, AWS, Social APIs (Instagram, Facebook, Google+,...)."
     - range: "Since 2015"
       name: "RegaloInteligente"
       url: "http://regalointeligente.com"
-      description: "Search engine of gifts with parameters like gender and age, and filter for prices. Web and Android applications (available in Google Play). Twitter bot with auto posting and automatic reply. Telegram bot."
+      description:
+        - "Search engine of gifts with parameters like gender and age, and filter for prices."
+        - "Web and Android applications (available in Google Play). Twitter bot with auto posting and automatic reply. Telegram bot."
+        - "Technologies: Python, Pyramid, MongoDB, ElasticSearch, Amazon API, Twitter API, Telegram Bot API."
     - range: "2013 – 2014"
       name: "CursosDeSEO"
       url: "http://cursosdeseo.net"
-      description: "Search engine of courses from different platforms and formats."
+      description:
+        - "Search engine of courses from different platforms and formats."
+        - "Technologies: Python, Pyramid, MongoDB, ElasticSearch, Scrapy."
 
 free_software:
     - range: "Since 2014"
