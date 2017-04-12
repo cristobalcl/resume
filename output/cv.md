@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2016-11-26"
+date: "2017-04-12"
 slug: "cv"
 ---
 
@@ -31,7 +31,11 @@ Education
 Experience
 ==========
 
-* Since July 2015 **VATIA Energía**, *Software Engineering Manager*.
+* Since 2017 **Cathedral Software**, *Senior Software Engineering*.
+
+	+ Big Data & Business Intelligence.
+	+ Technologies: Python, AWS, Airflow, Redshift, PostgreSQL, Angular 2,...
+* 2015 - 2017 **VATIA Energía**, *Software Engineering Manager*.
 
 	+ Web platform for automatic *Virtual Energetic Audit*, *Energetic Benchmarking*, monitoring,...
 	+ Fullstack development, DevOps & data analysis.
@@ -133,7 +137,7 @@ Computer skills
 	Python, Bash, JavaScript, HTML5, CSS3, C, C++, Java, SQL, PHP, ASP, Delphi, Octave, Matlab, ActionScript, Assembly (Intel x86, AT&T).
 
 **Databases:**
-	MongoDB, ElasticSearch, Redis, Memcached, PostgreSQL, Oracle, MySQL.
+	MongoDB, ElasticSearch, Redis, Memcached, PostgreSQL, Redshift, Oracle, MySQL.
 
 **Web servers:**
 	Apache, Nginx.
@@ -142,10 +146,10 @@ Computer skills
 	Vim, GDB, Make, CMake, Android Studio, Eclipse, KDevelop, Visual Studio. Mercurial, Git, Subversion, CVS.
 
 **Frameworks:**
-	Django, Pyramid, Node.js, Express.js, Bootstrap, Mako, Celery, Cornice, Scrapy, WordPress, OpenCV, OpenGL, OAuth.
+	Django, Celery, Cornice, Scrapy, Airflow, Pyramid, Bootstrap, Mako, Node.js, Express.js, Angular 2, WordPress, OpenCV, OpenGL, OAuth.
 
 **Deployment:**
-	Ansible, Fabric, VirtualEnv, Supervisor, Upstart, Docker/Dokku, Vagrant, AWS API.
+	Ansible, Fabric, VirtualEnv, Supervisor, Upstart, Docker, Dokku, Vagrant, AWS API.
 
 **Data Analysis:**
 	Pandas, NumPy, SciPy, Matplotlib, MapReduce.
@@ -157,7 +161,7 @@ Computer skills
 	PayPal, Google Wallet, Amazon, Facebook, Twitter, Instagram, Braintree, Telegram.
 
 **Platforms:**
-	GNU/Linux (Ubuntu, Debian, SuSE Enterprise Server), Android. AWS, DigitalOcean.
+	GNU/Linux (Ubuntu, Debian, SuSE Enterprise Server, CentOS), Android. AWS, DigitalOcean.
 
 **Others:**
 	LaTeX, Doxygen, LibreOffice, Inkscape, Gimp, Krita, Photoshop, Flash.

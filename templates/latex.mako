@@ -32,7 +32,7 @@
 \email{${personal_info["email"]}}
 \homepage{${personal_info["webs"][0]["url"]}}
 \extrainfo{${personal_info["birth"]}}
-\photo[104pt][0.0pt]{${personal_info["photo"]}} % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%%\photo[104pt][0.0pt]{${personal_info["photo"]}} % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
 \quote{``${quote["line"]}'' -- ${quote["author"]}}
 
 \begin{document}

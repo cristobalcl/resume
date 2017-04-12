@@ -37,12 +37,13 @@ education:
       comments: "5-year university degree. Bachelor Thesis approved with Special Distinction."
 
 experience:
-    # - range: "Since 2016"
-    #   company: "Mukabe"
-    #   position: "Founder & CTO (personal project)"
-    #   comments:
-    #       - "Full stack development & DevOps."
-    - range: "Since July 2015"
+    - range: "Since 2017"
+      company: "Cathedral Software"
+      position: "Senior Software Engineering"
+      comments:
+        - "Big Data & Business Intelligence."
+        - "Technologies: Python, AWS, Airflow, Redshift, PostgreSQL, Angular 2,..."
+    - range: "2015 - 2017"
       company: "VATIA Energía"
       position: "Software Engineering Manager"
       comments:
@@ -155,15 +156,15 @@ languages:
 
 computer_skills:
     - Languages: "Python, Bash, JavaScript, HTML5, CSS3, C, C++, Java, SQL, PHP, ASP, Delphi, Octave, Matlab, ActionScript, Assembly (Intel x86, AT&T)."
-    - Databases: "MongoDB, ElasticSearch, Redis, Memcached, PostgreSQL, Oracle, MySQL."
+    - Databases: "MongoDB, ElasticSearch, Redis, Memcached, PostgreSQL, Redshift, Oracle, MySQL."
     - "Web servers": "Apache, Nginx."
     - Environments: "Vim, GDB, Make, CMake, Android Studio, Eclipse, KDevelop, Visual Studio. Mercurial, Git, Subversion, CVS."
-    - Frameworks: "Django, Pyramid, Node.js, Express.js, Bootstrap, Mako, Celery, Cornice, Scrapy, WordPress, OpenCV, OpenGL, OAuth."
-    - Deployment: "Ansible, Fabric, VirtualEnv, Supervisor, Upstart, Docker/Dokku, Vagrant, AWS API."
+    - Frameworks: "Django, Celery, Cornice, Scrapy, Airflow, Pyramid, Bootstrap, Mako, Node.js, Express.js, Angular 2, WordPress, OpenCV, OpenGL, OAuth."
+    - Deployment: "Ansible, Fabric, VirtualEnv, Supervisor, Upstart, Docker, Dokku, Vagrant, AWS API."
     - "Data Analysis": "Pandas, NumPy, SciPy, Matplotlib, MapReduce."
     - Technologies: "RESTful Web Services, Ajax."
     - APIs: "PayPal, Google Wallet, Amazon, Facebook, Twitter, Instagram, Braintree, Telegram."
-    - Platforms: "GNU/Linux (Ubuntu, Debian, SuSE Enterprise Server), Android. AWS, DigitalOcean."
+    - Platforms: "GNU/Linux (Ubuntu, Debian, SuSE Enterprise Server, CentOS), Android. AWS, DigitalOcean."
     - Others: "LaTeX, Doxygen, LibreOffice, Inkscape, Gimp, Krita, Photoshop, Flash."
 
 personal_skills:
