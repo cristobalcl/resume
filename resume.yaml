@@ -39,10 +39,10 @@ education:
 experience:
     - range: "Since 2017"
       company: "Cathedral Software"
-      position: "Senior Software Engineering"
+      position: "Senior Software Engineer"
       comments:
         - "Big Data & Business Intelligence."
-        - "Technologies: Python, AWS, Airflow, Redshift, PostgreSQL, Angular 2,..."
+        - "Technologies: Python, Django, Django REST framework, AWS, Docker, Airflow, Redshift, PostgreSQL, Angular 2, Selenium,..."
     - range: "2015 - 2017"
       company: "VATIA Energía"
       position: "Software Engineering Manager"
@@ -159,7 +159,8 @@ computer_skills:
     - Databases: "MongoDB, ElasticSearch, Redis, Memcached, PostgreSQL, Redshift, Oracle, MySQL."
     - "Web servers": "Apache, Nginx."
     - Environments: "Vim, GDB, Make, CMake, Android Studio, Eclipse, KDevelop, Visual Studio. Mercurial, Git, Subversion, CVS."
-    - Frameworks: "Django, Celery, Cornice, Scrapy, Airflow, Pyramid, Bootstrap, Mako, Node.js, Express.js, Angular 2, WordPress, OpenCV, OpenGL, OAuth."
+    - Frameworks: "Django, Django REST framework, Celery, Cornice, Scrapy, Airflow, Pyramid, Bootstrap, Mako, Node.js, Express.js, Angular 2, WordPress, OpenCV, OpenGL, OAuth."
+    - Testing: "TDD, unittest, Selenium."
     - Deployment: "Ansible, Fabric, VirtualEnv, Supervisor, Upstart, Docker, Dokku, Vagrant, AWS API."
     - "Data Analysis": "Pandas, NumPy, SciPy, Matplotlib, MapReduce."
     - Technologies: "RESTful Web Services, Ajax."

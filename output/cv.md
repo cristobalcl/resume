@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2017-04-12"
+date: "2018-02-07"
 slug: "cv"
 ---
 
@@ -31,10 +31,10 @@ Education
 Experience
 ==========
 
-* Since 2017 **Cathedral Software**, *Senior Software Engineering*.
+* Since 2017 **Cathedral Software**, *Senior Software Engineer*.
 
 	+ Big Data & Business Intelligence.
-	+ Technologies: Python, AWS, Airflow, Redshift, PostgreSQL, Angular 2,...
+	+ Technologies: Python, Django, Django REST framework, AWS, Airflow, Redshift, PostgreSQL, Angular 2, Selenium,...
 * 2015 - 2017 **VATIA Energía**, *Software Engineering Manager*.
 
 	+ Web platform for automatic *Virtual Energetic Audit*, *Energetic Benchmarking*, monitoring,...
@@ -146,7 +146,10 @@ Computer skills
 	Vim, GDB, Make, CMake, Android Studio, Eclipse, KDevelop, Visual Studio. Mercurial, Git, Subversion, CVS.
 
 **Frameworks:**
-	Django, Celery, Cornice, Scrapy, Airflow, Pyramid, Bootstrap, Mako, Node.js, Express.js, Angular 2, WordPress, OpenCV, OpenGL, OAuth.
+	Django, Django REST framework, Celery, Cornice, Scrapy, Airflow, Pyramid, Bootstrap, Mako, Node.js, Express.js, Angular 2, WordPress, OpenCV, OpenGL, OAuth.
+
+**Testing:**
+	TDD, unittest, Selenium.
 
 **Deployment:**
 	Ansible, Fabric, VirtualEnv, Supervisor, Upstart, Docker, Dokku, Vagrant, AWS API.
