@@ -16,7 +16,7 @@ documentclass: book
 classoption: oneside
 ---
 
-##![${first_name} ${family_name}](${personal_info["photo"]})
+![${first_name} ${family_name}](${personal_info["photo"]})
 
 ${first_name} ${family_name} – Resume
 =====================================
