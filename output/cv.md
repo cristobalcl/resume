@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2018-02-07"
+date: "2018-04-14"
 slug: "cv"
 ---
 
@@ -31,7 +31,11 @@ Education
 Experience
 ==========
 
-* Since 2017 **Cathedral Software**, *Senior Software Engineer*.
+* Since 2018 **Virtually Live**, *Senior Server Engineer*.
+
+	+ Cloud architecture design and implementation.
+	+ CI/CD automation.
+* 2017-2018 **Cathedral Software**, *Senior Software Engineer*.
 
 	+ Big Data & Business Intelligence.
 	+ Technologies: Python, Django, Django REST framework, AWS, Docker, Airflow, Redshift, PostgreSQL, Angular 2, Selenium,...
@@ -140,7 +144,7 @@ Computer skills
 	MongoDB, ElasticSearch, Redis, Memcached, PostgreSQL, Redshift, Oracle, MySQL.
 
 **Web servers:**
-	Apache, Nginx.
+	Nginx, Apache.
 
 **Environments:**
 	Vim, GDB, Make, CMake, Android Studio, Eclipse, KDevelop, Visual Studio. Mercurial, Git, Subversion, CVS.
@@ -152,7 +156,7 @@ Computer skills
 	TDD, unittest, Selenium.
 
 **Deployment:**
-	Ansible, Fabric, VirtualEnv, Supervisor, Upstart, Docker, Dokku, Vagrant, AWS API.
+	Jenkins, Ansible, Fabric, VirtualEnv, Supervisor, Upstart, Docker, Kubernetes, Vagrant, AWS API.
 
 **Data Analysis:**
 	Pandas, NumPy, SciPy, Matplotlib, MapReduce.

@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 outfile=`grep outfile resume.yaml | head -n 1 | awk '{print $2}'`
 
 tmp=`mktemp -d`

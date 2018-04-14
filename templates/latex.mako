@@ -49,7 +49,7 @@
 \section{Experience}
 % for exp in experience:
 \cventry{${exp["range"]}}{${exp["company"]}}{${exp["position"]}}{}{}{
-% if isinstance(exp["comments"], basestring):
+% if isinstance(exp["comments"], str):
 ${exp["comments"]}
 % else:
 	\begin{itemize}
@@ -71,7 +71,7 @@ ${exp["comments"]}
 \section{Personal projects}
 % for proj in personal_projects:
 	\cventry{${proj["range"]}}{${proj["name"]}}{\href{${proj["url"]}}{${proj["url"]}}}{}{}{
-% if isinstance(proj["description"], basestring):
+    % if isinstance(proj["description"], str):
 	${proj["description"]}
 % else:
 	\begin{itemize}
@@ -97,14 +97,14 @@ ${exp["comments"]}
 
 \subsection{Computer skills}
 % for skills in computer_skills:
-\cvline{${skills.keys()[0]}:}{\small ${skills.values()[0]}}
+\cvline{${list(skills.keys())[0]}:}{\small ${list(skills.values())[0]}}
 % endfor
 
 \subsection{Personal skills}
 % for skills in personal_skills:
-\cvline{${skills.keys()[0]}}{
+\cvline{${list(skills.keys())[0]}}{
 	\begin{itemize}
-% for desc in skills.values()[0]:
+% for desc in list(skills.values())[0]:
 		\item ${desc}
 % endfor
 	\end{itemize}

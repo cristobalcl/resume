@@ -52,7 +52,7 @@ Experience
 % for exp in experience:
 * ${exp["range"]} **${exp["company"]}**, *${exp["position"]}*.
 
-% if isinstance(exp["comments"], basestring):
+% if isinstance(exp["comments"], str):
 	> ${exp["comments"]}
 % else:
 % for comment in exp["comments"]:
@@ -81,7 +81,7 @@ Personal Projects
 % for proj in personal_projects:
 * ${proj["range"]} **${proj["name"]}**, <${proj["url"]}>.
 
-% if isinstance(proj["description"], basestring):
+% if isinstance(proj["description"], str):
 	> ${proj["description"]}
 % else:
 % for comment in proj["description"]:
@@ -113,17 +113,17 @@ Computer skills
 ---------------
 
 % for skills in computer_skills:
-**${skills.keys()[0]}:**
-:	${skills.values()[0]}
+**${list(skills.keys())[0]}:**
+:	${list(skills.values())[0]}
 % endfor
 
 Personal skills
 ---------------
 % for skills in personal_skills:
 
-${"### " + skills.keys()[0]}:
+${"### " + list(skills.keys())[0]}:
 
-% for desc in skills.values()[0]:
+% for desc in list(skills.values())[0]:
 * ${desc}
 % endfor
 % endfor
