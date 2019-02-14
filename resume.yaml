@@ -37,12 +37,21 @@ education:
       comments: "5-year university degree. Bachelor Thesis approved with Special Distinction."
 
 experience:
-    - range: "Since 2018"
+    - range: "Since Nov 2018"
+      company: "Organic Software"
+      position: "Senior Data Engineer"
+      comments:
+        - "Cloud architecture solutions design & implementation."
+        - "Backend services development & deployment."
+        - "Technologies: AWS, Terraform, Kubernetes, Helm, Django REST Framework, Pandas, Jupyter,..."
+    - range: "Feb 2018 - Nov 2018"
       company: "Virtually Live"
       position: "Senior Server Engineer"
       comments:
         - "Cloud architecture design and implementation."
         - "CI/CD automation."
+        - "Computer Vision using Deep Learning."
+        - "Technologies: Python, Kubernetes, AWS, Jenkins, Ansible, Terraform, Keras, Pandas, Jupyter,..."
     - range: "2017-2018"
       company: "Cathedral Software"
       position: "Senior Software Engineer"
@@ -161,18 +170,19 @@ languages:
       level: "Fluent"
 
 computer_skills:
-    - Languages: "Python, Bash, JavaScript, HTML5, CSS3, C, C++, Java, SQL, PHP, ASP, Delphi, Octave, Matlab, ActionScript, Assembly (Intel x86, AT&T)."
-    - Databases: "MongoDB, ElasticSearch, Redis, Memcached, PostgreSQL, Redshift, Oracle, MySQL."
+    - Languages: "Python, Bash, JavaScript, HTML5, CSS3, SQL."
+    - Databases: "PostgreSQL, MongoDB, ElasticSearch, Redis, Memcached, Redshift."
     - "Web servers": "Nginx, Apache."
-    - Environments: "Vim, GDB, Make, CMake, Android Studio, Eclipse, KDevelop, Visual Studio. Mercurial, Git, Subversion, CVS."
-    - Frameworks: "Django, Django REST framework, Celery, Cornice, Scrapy, Airflow, Pyramid, Bootstrap, Mako, Node.js, Express.js, Angular 2, WordPress, OpenCV, OpenGL, OAuth."
+    - Environments: "Vim, Make, Android Studio, Eclipse. Git, Mercurial, Subversion."
+    - Frameworks: "Django, Django REST framework, Celery, Cornice, Scrapy, Airflow, Pyramid, Bootstrap, Mako, WordPress, OpenCV, OpenGL."
     - Testing: "TDD, unittest, Selenium."
-    - Deployment: "Jenkins, Ansible, Fabric, VirtualEnv, Supervisor, Upstart, Docker, Kubernetes, Vagrant, AWS API."
-    - "Data Analysis": "Pandas, NumPy, SciPy, Matplotlib, MapReduce."
+    - Infrastructure: "Kubernetes, AWS, DigitalOcean."
+    - Deployment: "Docker, Helm, Jenkins, Ansible, Terraform, Fabric, VirtualEnv, Supervisor, Upstart, Vagrant."
+    - "Data Science": "Pandas, Keras, Jupyter."
     - Technologies: "RESTful Web Services, Ajax."
     - APIs: "PayPal, Google Wallet, Amazon, Facebook, Twitter, Instagram, Braintree, Telegram."
-    - Platforms: "GNU/Linux (Ubuntu, Debian, SuSE Enterprise Server, CentOS), Android. AWS, DigitalOcean."
-    - Others: "LaTeX, Doxygen, LibreOffice, Inkscape, Gimp, Krita, Photoshop, Flash."
+    - Platforms: "GNU/Linux (Ubuntu, Debian, SuSE Enterprise Server, CentOS), Android."
+    - Others: "LaTeX."
 
 personal_skills:
     - Engineering:
