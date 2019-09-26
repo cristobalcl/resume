@@ -6,13 +6,30 @@ CV generator in different formats.
 Ubuntu:
 
 ```bash
-sudo aptitude install texlive texlive-binaries texlive-latex-recomended texlive-latex-extra python3-yaml python3-mako
+sudo apt-get install texlive texlive-binaries texlive-latex-recomended texlive-latex-extra virtualenv
+virtualenv -p python3 .venv
+source .venv/bin/activate.fish
+pip install -r requirements.txt
 ```
 
 OpenSuse:
 
 ```bash
-sudo zypper install texlive texlive-moderncv python3-PyYAML python3 python3-Mako
+sudo zypper install texlive texlive-moderncv python3
+virtualenv -p python3 .venv
+source .venv/bin/activate.fish
+pip install -r requirements.txt
 ```
 
 Download and install [Pandoc](http://pandoc.org/).
+
+Mac:
+
+```bash
+sudo pip install virtualenv
+brew cask install mactex-no-gui
+brew install pandoc
+virtualenv -p python3 .venv
+source .venv/bin/activate.fish
+pip install -r requirements.txt
+```

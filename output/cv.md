@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2019-02-14"
+date: "2019-09-26"
 slug: "cv"
 ---
 
@@ -31,11 +31,11 @@ Education
 Experience
 ==========
 
-* Since Nov 2018 **Organic Software**, *Senior Data Engineer*.
+* Since Nov 2018 **Cathedral Software**, *Senior Data Engineer*.
 
 	+ Cloud architecture solutions design & implementation.
 	+ Backend services development & deployment.
-	+ Technologies: Python, Django REST Framework, Kubernetes, AWS, Terraform, Pandas, Jupyter,...
+	+ Technologies: AWS, Terraform, Kubernetes, Helm, Django REST Framework, Pandas, Jupyter,...
 * Feb 2018 - Nov 2018 **Virtually Live**, *Senior Server Engineer*.
 
 	+ Cloud architecture design and implementation.

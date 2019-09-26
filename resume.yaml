@@ -38,7 +38,7 @@ education:
 
 experience:
     - range: "Since Nov 2018"
-      company: "Organic Software"
+      company: "Cathedral Software"
       position: "Senior Data Engineer"
       comments:
         - "Cloud architecture solutions design & implementation."
