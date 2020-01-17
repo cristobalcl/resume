@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2019-09-26"
+date: "2020-01-16"
 slug: "cv"
 ---
 
@@ -35,13 +35,14 @@ Experience
 
 	+ Cloud architecture solutions design & implementation.
 	+ Backend services development & deployment.
-	+ Technologies: AWS, Terraform, Kubernetes, Helm, Django REST Framework, Pandas, Jupyter,...
+	+ Technologies: AWS, Azure, Terraform, Kubernetes, Helm, Django REST Framework, Pandas, Jupyter,...
 * Feb 2018 - Nov 2018 **Virtually Live**, *Senior Server Engineer*.
 
-	+ Cloud architecture design and implementation.
-	+ CI/CD automation.
+	+ Cloud architecture and CI/CD design and implementation.
+	+ Kubernetes deployment and management in AWS.
+	+ Real-time data pipeline: ingestion, processing, publishing,...
 	+ Computer Vision using Deep Learning.
-	+ Technologies: Python, Kubernetes, AWS, Jenkins, Ansible, Terraform, Keras, Pandas, Jupyter,...
+	+ Technologies: Python, Kubernetes, AWS, Jenkins, Ansible, Terraform, Kafka, Heron, Keras, Pandas, Jupyter,...
 * 2017-2018 **Cathedral Software**, *Senior Software Engineer*.
 
 	+ Big Data & Business Intelligence.
@@ -163,7 +164,7 @@ Computer skills
 	TDD, unittest, Selenium.
 
 **Infrastructure:**
-	Kubernetes, AWS, DigitalOcean.
+	Kubernetes, AWS, Azure, DigitalOcean.
 
 **Deployment:**
 	Docker, Helm, Jenkins, Ansible, Terraform, Fabric, VirtualEnv, Supervisor, Upstart, Vagrant.
