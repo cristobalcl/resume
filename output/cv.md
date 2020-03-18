@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2020-01-16"
+date: "2020-03-18"
 slug: "cv"
 ---
 
@@ -11,7 +11,7 @@ slug: "cv"
 
 * **Phone:** +34 655 52 79 11
 * **Email:** [ccarnerolinan@gmail.com](ccarnerolinan@gmail.com)
-* **Personal web:** [http://cristóbal.com](http://cristóbal.com)
+* **Personal web:** [https://cristobal.dev](https://cristobal.dev)
 * **LinkedIn:** [http://es.linkedin.com/in/ccarnerolinan/](http://es.linkedin.com/in/ccarnerolinan/)
 * **Date of birth:** 12th February, 1981
 
