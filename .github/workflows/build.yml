@@ -23,12 +23,15 @@ jobs:
         mkdir ./build
         python3 render.py -t ./build
         ls -la ./build
+        echo "::set-env name=FILELIST::$(printf '"%s" ' ./build/resume.md)"
 
     - name: Compile LaTeX document
       uses: dante-ev/latex-action@master
       with:
         root_file: ./build/resume.tex
-        args: "-lualatex -latexoption=-file-line-error -latexoption=-interaction=nonstopmode -output-directory=./build"
+        args: |>
+          -lualatex -latexoption=-file-line-error -latexoption=-interaction=nonstopmode
+          -output-directory=./build
 
     - name: Shrink and copy PDF document
       run: tools/shrinkpdf2 ./build/resume.pdf output/cristobal-resume.pdf
@@ -36,7 +39,7 @@ jobs:
     - name: Generate LibreOffice document
       uses: docker://pandoc/core:2.9
       with:
-        args: "./build/resume.md -o output/cristobal-resume.odt"
+        args: "${{ env.FILELIST }} -o output/cristobal-resume.odt"
 
     - name: Generate Word document
       uses: docker://pandoc/core:2.9
