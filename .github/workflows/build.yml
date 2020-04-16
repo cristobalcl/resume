@@ -14,7 +14,9 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Install Python dependencies
-      run: pip3 install -r requirements.txt
+      run: |
+        sudo apt-get install python3-setuptools
+        pip3 install -r requirements.txt
 
     - name: Render
       run: |
