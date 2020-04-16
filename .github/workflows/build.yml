@@ -1,0 +1,44 @@
+name: Build
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install Python dependencies
+      run: pip install -r requirements.txt
+
+    - name: Render
+      run: |
+        mkdir /tmp/build
+        ./render.py -t /tmp/build
+
+    - name: Compile LaTeX document
+      uses: dante-ev/latex-action@master
+      with:
+        root_file: /tmp/build/resume.tex
+        args: "-output-directory=/tmp/build"
+
+    - name: Shrink and copy PDF document
+      run: tools/shrinkpdf2 /tmp/build/resume.pdf output/cristobal-resume.pdf
+      
+    - name: Generate LibreOffice document
+      uses: docker://pandoc/core:2.9
+      with:
+        args: "/tmp/build/resume.md -o output/cristobal-resume.odt"
+
+    - name: Generate Word document
+      uses: docker://pandoc/core:2.9
+      with:
+        args: "/tmp/build/resume.md -o output/cristobal-resume.docx"
+
+    - name: Copy Hugo document
+      run: cp /tmp/build/resume.hugo output/cv.md
