@@ -20,7 +20,6 @@ jobs:
 
     - name: Render
       run: |
-        echo $GITHUB_WORKSPACE
         mkdir $GITHUB_WORKSPACE/build
         python3 render.py -t $GITHUB_WORKSPACE/build
 
@@ -31,12 +30,12 @@ jobs:
         args: "-lualatex -latexoption=-file-line-error -latexoption=-interaction=nonstopmode -output-directory=/github/workspace/build"
 
     - name: Shrink and copy PDF document
-      run: tools/shrinkpdf2 /github/workspace/build/resume.pdf output/cristobal-resume.pdf
+      run: tools/shrinkpdf2 $GITHUB_WORKSPACE/build/resume.pdf output/cristobal-resume.pdf
       
     - name: Generate LibreOffice document
       uses: docker://pandoc/core:2.9
       with:
-        args: "$/github/workspace/build/resume.md --output=output/cristobal-resume.odt"
+        args: "/github/workspace/build/resume.md --output=output/cristobal-resume.odt"
 
     - name: Generate Word document
       uses: docker://pandoc/core:2.9
