@@ -22,8 +22,6 @@ jobs:
       run: |
         mkdir ./build
         python3 render.py -t ./build
-        ls -la ./build
-        echo "::set-env name=FILELIST::$(printf '"%s" ' ./build/resume.md)"
 
     - name: Compile LaTeX document
       uses: dante-ev/latex-action@master
@@ -37,12 +35,12 @@ jobs:
     - name: Generate LibreOffice document
       uses: docker://pandoc/core:2.9
       with:
-        args: "${{ env.FILELIST }} -o output/cristobal-resume.odt"
+        args: "$./build/resume.md --output=output/cristobal-resume.odt"
 
     - name: Generate Word document
       uses: docker://pandoc/core:2.9
       with:
-        args: "./build/resume.md -o output/cristobal-resume.docx"
+        args: "./build/resume.md --output=output/cristobal-resume.docx"
 
     - name: Copy Hugo document
       run: cp ./build/resume.hugo output/cv.md
