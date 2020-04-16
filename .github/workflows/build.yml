@@ -20,27 +20,27 @@ jobs:
 
     - name: Render
       run: |
-        mkdir /tmp/build
-        python3 render.py -t /tmp/build
+        mkdir ./build
+        python3 render.py -t ./build
 
     - name: Compile LaTeX document
       uses: dante-ev/latex-action@master
       with:
-        root_file: /tmp/build/resume.tex
-        args: "-output-directory=/tmp/build"
+        root_file: ./build/resume.tex
+        args: "-output-directory=./build"
 
     - name: Shrink and copy PDF document
-      run: tools/shrinkpdf2 /tmp/build/resume.pdf output/cristobal-resume.pdf
+      run: tools/shrinkpdf2 ./build/resume.pdf output/cristobal-resume.pdf
       
     - name: Generate LibreOffice document
       uses: docker://pandoc/core:2.9
       with:
-        args: "/tmp/build/resume.md -o output/cristobal-resume.odt"
+        args: "./build/resume.md -o output/cristobal-resume.odt"
 
     - name: Generate Word document
       uses: docker://pandoc/core:2.9
       with:
-        args: "/tmp/build/resume.md -o output/cristobal-resume.docx"
+        args: "./build/resume.md -o output/cristobal-resume.docx"
 
     - name: Copy Hugo document
-      run: cp /tmp/build/resume.hugo output/cv.md
+      run: cp ./build/resume.hugo output/cv.md
