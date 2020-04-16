@@ -27,7 +27,7 @@ jobs:
       uses: dante-ev/latex-action@master
       with:
         root_file: ./build/resume.tex
-        args: "-output-directory=./build"
+        args: "-lualatex -latexoption=-file-line-error -latexoption=-interaction=nonstopmode -output-directory=./build"
 
     - name: Shrink and copy PDF document
       run: tools/shrinkpdf2 ./build/resume.pdf output/cristobal-resume.pdf
