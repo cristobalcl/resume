@@ -31,7 +31,7 @@ def main():
     args = processCommandLine()
 
     stream = open("resume.yaml", "r")
-    resume = yaml.load(stream)
+    resume = yaml.load(stream, Loader=yaml.FullLoader)
 
     if args.verbose: pprint(resume)
 
