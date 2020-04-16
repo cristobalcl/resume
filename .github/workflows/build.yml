@@ -22,6 +22,7 @@ jobs:
       run: |
         mkdir ./build
         python3 render.py -t ./build
+        pwd
 
     - name: Compile LaTeX document
       uses: dante-ev/latex-action@master
