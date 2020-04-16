@@ -20,9 +20,9 @@ jobs:
 
     - name: Render
       run: |
-        mkdir /github/workspace/build
-        python3 render.py -t /github/workspace/build
-        pwd
+        echo $GITHUB_WORKSPACE
+        mkdir $GITHUB_WORKSPACE/build
+        python3 render.py -t $GITHUB_WORKSPACE/build
 
     - name: Compile LaTeX document
       uses: dante-ev/latex-action@master
