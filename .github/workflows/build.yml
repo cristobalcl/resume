@@ -37,12 +37,12 @@ jobs:
     - name: Generate LibreOffice document
       uses: docker://pandoc/core:2.9
       with:
-        args: "./build/resume.md --output=output/cristobal-resume.odt"
+        args: "/github/workspace/build/resume.md --output=output/cristobal-resume.odt"
 
     - name: Generate Word document
       uses: docker://pandoc/core:2.9
       with:
-        args: "./build/resume.md --output=output/cristobal-resume.docx"
+        args: "/github/workspace/build/resume.md --output=output/cristobal-resume.docx"
 
     - name: Copy Hugo document
       run: cp $GITHUB_WORKSPACE/build/resume.hugo output/cv.md
