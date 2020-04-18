@@ -22,6 +22,8 @@ jobs:
       run: |
         mkdir $GITHUB_WORKSPACE/build
         python3 render.py -t $GITHUB_WORKSPACE/build
+        echo $GITHUB_WORKSPACE/build
+        ls -la $GITHUB_WORKSPACE/build
 
     - name: Compile LaTeX document
       uses: dante-ev/latex-action@master
