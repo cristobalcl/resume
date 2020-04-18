@@ -22,9 +22,6 @@ jobs:
       run: |
         mkdir $GITHUB_WORKSPACE/build
         python3 render.py -t $GITHUB_WORKSPACE/build
-        echo $GITHUB_WORKSPACE/build
-        ls -la $GITHUB_WORKSPACE/build
-        cp $GITHUB_WORKSPACE/build/resume.md $GITHUB_WORKSPACE/resume.md
 
     - name: Compile LaTeX document
       uses: dante-ev/latex-action@master
@@ -35,15 +32,26 @@ jobs:
     - name: Shrink and copy PDF document
       run: tools/shrinkpdf2 $GITHUB_WORKSPACE/build/resume.pdf output/cristobal-resume.pdf
 
-    - name: Generate LibreOffice document
-      uses: docker://pandoc/core:2.9
-      with:
-        args: "/github/workspace/resume.md --output=output/cristobal-resume.odt"
+    # - name: Generate LibreOffice document
+    #   uses: docker://pandoc/core:2.9
+    #   with:
+    #     args: "/github/workspace/build/resume.md --output=output/cristobal-resume.odt"
 
-    - name: Generate Word document
-      uses: docker://pandoc/core:2.9
-      with:
-        args: "/github/workspace/resume.md --output=output/cristobal-resume.docx"
+    # - name: Generate Word document
+    #   uses: docker://pandoc/core:2.9
+    #   with:
+    #     args: "/github/workspace/build/resume.md --output=output/cristobal-resume.docx"
 
     - name: Copy Hugo document
       run: cp $GITHUB_WORKSPACE/build/resume.hugo output/cv.md
+
+    - name: Commit files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -m "Update outputs" -a
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
