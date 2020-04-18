@@ -33,6 +33,7 @@ Experience
 
 * Since Nov 2018 **Cathedral Software**, *Senior Data Engineer*.
 
+	+ Work for an American management consulting firm.
 	+ Cloud architecture solutions design & implementation.
 	+ Backend services development & deployment.
 	+ Technologies: AWS, Azure, Terraform, Kubernetes, Helm, Django REST Framework, Pandas, Jupyter,...
@@ -45,6 +46,7 @@ Experience
 	+ Technologies: Python, Kubernetes, AWS, Jenkins, Ansible, Terraform, Kafka, Heron, Keras, Pandas, Jupyter,...
 * 2017-2018 **Cathedral Software**, *Senior Software Engineer*.
 
+	+ Work in the BI platform for a travel technology company.
 	+ Big Data & Business Intelligence.
 	+ Technologies: Python, Django, Django REST framework, AWS, Docker, Airflow, Redshift, PostgreSQL, Angular 2, Selenium,...
 * 2015 - 2017 **VATIA Energía**, *Software Engineering Manager*.
