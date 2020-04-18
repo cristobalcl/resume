@@ -24,6 +24,7 @@ jobs:
         python3 render.py -t $GITHUB_WORKSPACE/build
         echo $GITHUB_WORKSPACE/build
         ls -la $GITHUB_WORKSPACE/build
+        cp $GITHUB_WORKSPACE/build/resume.md $GITHUB_WORKSPACE/resume.md
 
     - name: Compile LaTeX document
       uses: dante-ev/latex-action@master
@@ -37,12 +38,12 @@ jobs:
     - name: Generate LibreOffice document
       uses: docker://pandoc/core:2.9
       with:
-        args: "/github/workspace/build/resume.md --output=output/cristobal-resume.odt"
+        args: "/github/workspace/resume.md --output=output/cristobal-resume.odt"
 
     - name: Generate Word document
       uses: docker://pandoc/core:2.9
       with:
-        args: "/github/workspace/build/resume.md --output=output/cristobal-resume.docx"
+        args: "/github/workspace/resume.md --output=output/cristobal-resume.docx"
 
     - name: Copy Hugo document
       run: cp $GITHUB_WORKSPACE/build/resume.hugo output/cv.md
