@@ -41,6 +41,7 @@ experience:
       company: "Cathedral Software"
       position: "Senior Data Engineer"
       comments:
+        - "Work for an American management consulting firm."
         - "Cloud architecture solutions design & implementation."
         - "Backend services development & deployment."
         - "Technologies: AWS, Azure, Terraform, Kubernetes, Helm, Django REST Framework, Pandas, Jupyter,..."
@@ -57,6 +58,7 @@ experience:
       company: "Cathedral Software"
       position: "Senior Software Engineer"
       comments:
+        - "Work in the BI platform for a travel technology company."
         - "Big Data & Business Intelligence."
         - "Technologies: Python, Django, Django REST framework, AWS, Docker, Airflow, Redshift, PostgreSQL, Angular 2, Selenium,..."
     - range: "2015 - 2017"
