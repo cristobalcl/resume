@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2020-03-18"
+date: "2020-04-16"
 slug: "cv"
 ---
 

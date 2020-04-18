@@ -31,16 +31,16 @@ jobs:
 
     - name: Shrink and copy PDF document
       run: tools/shrinkpdf2 $GITHUB_WORKSPACE/build/resume.pdf output/cristobal-resume.pdf
-      
+
     - name: Generate LibreOffice document
       uses: docker://pandoc/core:2.9
       with:
-        args: "/github/workspace/build/resume.md --output=output/cristobal-resume.odt"
+        args: "./build/resume.md --output=output/cristobal-resume.odt"
 
     - name: Generate Word document
       uses: docker://pandoc/core:2.9
       with:
-        args: "/github/workspace/build/resume.md --output=output/cristobal-resume.docx"
+        args: "./build/resume.md --output=output/cristobal-resume.docx"
 
     - name: Copy Hugo document
-      run: cp ./build/resume.hugo output/cv.md
+      run: cp $GITHUB_WORKSPACE/build/resume.hugo output/cv.md
