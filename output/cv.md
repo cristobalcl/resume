@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2020-04-18"
+date: "2020-04-19"
 slug: "cv"
 ---
 
@@ -108,6 +108,12 @@ Bachelor Thesis
 Personal Projects
 =================
 
+* Since 2020 **EnRemo.to**, <https://enremo.to>.
+
+	+ Directory of tools for remote working.
+	+ Job offers for remote positions in Spanish based companies.
+	+ Blog and mail list.
+	+ No-code app.
 * Since 2016 **Mukabe**, <https://mukabe.com>.
 
 	+ *Mukabe* is the new way of navigate through information, the new social and online organization, and the new way to get visibility for you, your projects or your company.
@@ -125,13 +131,10 @@ Personal Projects
 Free Software Projects
 ======================
 
-* Since 2014 **WooDPD**, <http://woodpdplugin.com>.
+* Since 2014 **WooDPD**, <https://es.wordpress.org/plugins/woodpd/>.
 
 	> WordPress Plugin to integrate DPD purchases in WooCommerce.
-* Since 2013 **OrigamiPress**, <http://origamipress.com>.
-
-	> Blog tool, publishing platform, and CMS developed in Python. Yet to be published.
-* Since 2009 **cvBlob**, <http://cvblob.googlecode.com>.
+* Since 2009 **cvBlob**, <https://github.com/cristobalcl/cvblob>.
 
 	> Blob library for OpenCV, widely used in computer vision and robotic research.
 
