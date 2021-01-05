@@ -21,8 +21,6 @@ classoption: oneside
 ${first_name} ${family_name} – Resume
 =====================================
 
-> *“${quote["line"]}”* – ${quote["author"]}
-
 * **Phone:** ${personal_info["mobile"]}
 * **Email:** [${personal_info["email"]}](${personal_info["email"]})
 % for web in personal_info["webs"]:
@@ -43,6 +41,17 @@ Education
 % if "comments" in edu and edu["comments"]:
 
 	> ${edu["comments"]}
+% endif
+% endfor
+
+Certifications
+==============
+
+% for cert in certifications:
+* [⬡](${cert["url"]}) **${cert["title"]}**, ${cert["organization"]}.
+% if "comments" in cert and cert["comments"]:
+
+	> ${cert["comments"]}
 % endif
 % endfor
 

@@ -1,13 +1,11 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2020-04-19"
+date: "2021-01-05"
 slug: "cv"
 ---
 
 [Download .PDF ⬇](https://github.com/cristobalcl/resume/raw/master/output/cristobal-resume.pdf)
-
-> *“Creativity is intelligence having fun.”* – Albert Einstein
 
 * **Phone:** +34 655 52 79 11
 * **Email:** [ccarnerolinan@gmail.com](ccarnerolinan@gmail.com)
@@ -18,7 +16,7 @@ slug: "cv"
 Summary
 =======
 
-More than 10 years of professional experience in the software industry and university research groups. Expertise in develop, deploy and manage server-side software and web services.
+AWS Solutions Architect certified with more than 10 years of professional experience designing, building and deploying server-side solutions in the cloud, for different industries like management consulting, energy, video games, and university research groups. Expertise in web APIs, Data Engineering and DevOps.
 
 Education
 =========
@@ -28,42 +26,43 @@ Education
 
 	> 5-year university degree. Bachelor Thesis approved with Special Distinction.
 
+Certifications
+==============
+
+* [https://www.youracclaim.com/badges/392317f0-0508-4901-b27c-4bb3cf924f2e/linked_in_profile](🟢) **AWS Certified Solutions Architect – Associate**, Amazon Web Services.
+
 Experience
 ==========
 
-* Since Nov 2018 **Cathedral Software**, *Senior Data Engineer*.
+* Since Nov 2018 **Cathedral Software**, *Senior Data Engineer & DevOps*.
 
-	+ Work for an American management consulting firm.
-	+ Cloud architecture solutions design & implementation.
-	+ Backend services development & deployment.
-	+ Technologies: AWS, Azure, Terraform, Kubernetes, Helm, Django REST Framework, Pandas, Jupyter,...
-* Feb 2018 - Nov 2018 **Virtually Live**, *Senior Server Engineer*.
+	+ Work for one of the biggest management consulting firm.
+	+ Develop backend services for web applications using Django REST Framework for API, Celery for background tasks, and Django Channels for notitifications.
+	+ Work with Data Science team in order to design and implement cloud architecture solutions in both AWS & Azure, using Terraform.
+	+ Implement continuos integration with different stacks: CircleCI, Azure DevOps, Docker, Helm, Kubernetes.
+* Feb 2018 - Nov 2018 **Virtually Live**, *Senior Server Engineer & DevOps*.
 
-	+ Cloud architecture and CI/CD design and implementation.
-	+ Kubernetes deployment and management in AWS.
-	+ Real-time data pipeline: ingestion, processing, publishing,...
-	+ Computer Vision using Deep Learning.
-	+ Technologies: Python, Kubernetes, AWS, Jenkins, Ansible, Terraform, Kafka, Heron, Keras, Pandas, Jupyter,...
+	+ Independently responsible for designing full real-time data pipeline architecture from the ingestion of telemetry from live events (*Formula E*), processing, and serve the output stream data to mobile games at scale.
+	+ Implement the key parts of the architecture in Python using technologies like ZeroMQ, Kafka and Tornado.
+	+ Work closely with Data Science team to provide a stream processing framework using Apache Heron for their needs.
+	+ Deployment of a Kubernetes cluster in AWS using Ansible, including hosted applications using Helm, and continuos integration with Jenkins.
+	+ Contributions to open source project Apache Heron in order to fix deployment to Kubernetes and complete its documentation.
+	+ Work with R&D department designing and developing a prototype for a real time computer vision app using deep learning with Keras.
 * 2017-2018 **Cathedral Software**, *Senior Software Engineer*.
 
-	+ Work in the BI platform for a travel technology company.
-	+ Big Data & Business Intelligence.
-	+ Technologies: Python, Django, Django REST framework, AWS, Docker, Airflow, Redshift, PostgreSQL, Angular 2, Selenium,...
+	+ Work on the data pipeline of the business intelligence platform of one of the largest travel web companies.
+	+ Develop ETL in Airflow to calculate KPIs and provide reporting capabilities for internal tools of the client company.
+	+ Responsible to design and develop backend solution to provide real time chat and other features to mobile app using Tornado.
 * 2015 - 2017 **VATIA Energía**, *Software Engineering Manager*.
 
-	+ Web platform for automatic *Virtual Energetic Audit*, *Energetic Benchmarking*, monitoring,...
-	+ Fullstack development, DevOps & data analysis.
-	+ Technologies: Node.js, Python, Celery, Django, Pandas, Matplotlib, MongoDB, Ansible, Fabric.
-* 2014 – 2015 **Axafone**, *Consultant*.
-
-	+ Web technology consultancy.
-	+ Customized web crawlers (Scrapy).
-	+ Speaker.
+	+ Responsible to design and develop a web platform for automatic *Virtual Energetic Audit* and *Energetic Benchmarking*.
+	+ Develop key parts of the system: Node.js APIs, background tasks using Celery for monitoring, and data analysis/reporting with Pandas and Matplotlib.
+	+ Responsible for recruiting technical staff: write job descriptions, qualify resumes, interview candidates and provide assessments.
 * 2011 – 2013 **Melomics Media**, *Backend Developer, DevOps*.
 
-	+ Server side development and deployment of a massive online music repository, with search, streaming, purchases and public API.
-	+ Administration of cluster of Debian servers.
-	+ Development and deployment of automatic video edition software with additional post-processing capabilities as chroma key, effects, titles, subtitles, publishing,...
+	+ Server side development and deployment of a massive online repository of computer generated music, with search, streaming, purchases and public API.
+	+ Administration of a cluster of Debian servers.
+	+ Development of automatic video edition software with additional post-processing capabilities as chroma key, filters, titles, subtitles, publishing,...
 	+ Technologies: Python, web.py, MongoDB, ElasticSearch, Memcached. APIs: Paypal, Google Wallet, Facebook, Google+.
 * 2009 – 2011 **Universidad de Málaga**, *Researcher*.
 
@@ -72,13 +71,14 @@ Experience
 * 2007 – 2009 **Tedial S.L.**, *Backend Developer, System Administrator*.
 
 	+ Server-side media storage technologies.
-	+ Authentication, authorization, and access control.
-	+ Management of surveillance cameras.
-	+ Deployment of software and administration of several SuSE Enterprise Server installations.
-	+ Technologies: C++, Python, SuSE Enterprise Server, Oracle, LDAP, SOAP.
+	+ Authentication, authorization, and access control with LDAP.
+	+ Management software for surveillance cameras.
+	+ Deployment of software and administration of several SuSE Enterprise Server client installations.
+	+ Technologies: C++, Python, Oracle, SOAP.
 * 2005 – 2006 **Novasoft**, *Software and Web Developer*.
 
-	+ Educational video games.
+	+ Educational video games in Flash.
+	+ Started in a one month scholarship, but then the company hired for a longer project.
 	+ Technologies: Flash, ActionScript, HTML, Javascript.
 
 Master Thesis
@@ -110,31 +110,26 @@ Personal Projects
 
 * Since 2020 **EnRemo.to**, <https://enremo.to>.
 
-	+ Directory of tools for remote working.
-	+ Job offers for remote positions in Spanish based companies.
-	+ Blog and mail list.
-	+ No-code app.
+	+ Directory of tools for remote working developed during COVID-19 as a weekend No-Code project.
+	+ Job offers for remote positions in companies based in Spain.
+	+ Blog about remote working.
 * Since 2016 **Mukabe**, <https://mukabe.com>.
 
 	+ *Mukabe* is the new way of navigate through information, the new social and online organization, and the new way to get visibility for you, your projects or your company.
-	+ Technologies: Python, Django, Celery, Redis, ElasticSearch, Ansible, Fabric, AWS, Social APIs (Instagram, Facebook, Google+,...).
+	+ Technologies: Python, Django, Celery, Redis, ElasticSearch, Ansible, Fabric, AWS, Social APIs (Instagram, Facebook, Google+), HTML5, CSS3, Bootstrap, JavaScript, JQuery.
 * Since 2015 **RegaloInteligente**, <http://regalointeligente.com>.
 
 	+ Search engine of gifts with parameters like gender and age, and filter for prices.
-	+ Web and Android applications (available in Google Play). Twitter bot with auto posting and automatic reply. Telegram bot.
-	+ Technologies: Python, Pyramid, MongoDB, ElasticSearch, Amazon API, Twitter API, Telegram Bot API.
-* 2013 – 2014 **CursosDeSEO**, <http://cursosdeseo.net>.
-
-	+ Search engine of courses from different platforms and formats.
-	+ Technologies: Python, Pyramid, MongoDB, ElasticSearch, Scrapy.
+	+ Web and Android applications. Twitter bot with auto posting and automatic reply. Telegram bot.
+	+ Technologies: Python, Pyramid, MongoDB, ElasticSearch, Amazon Product Advertising API, Twitter API, Telegram Bot API, HTML5, CSS3, Bootstrap, JavaScript, JQuery.
 
 Free Software Projects
 ======================
 
-* Since 2014 **WooDPD**, <https://es.wordpress.org/plugins/woodpd/>.
+* 2014 – 2015 **WooDPD**, <https://es.wordpress.org/plugins/woodpd/>.
 
 	> WordPress Plugin to integrate DPD purchases in WooCommerce.
-* Since 2009 **cvBlob**, <https://github.com/cristobalcl/cvblob>.
+* 2009 – 2012 **cvBlob**, <https://github.com/cristobalcl/cvblob>.
 
 	> Blob library for OpenCV, widely used in computer vision and robotic research.
 
@@ -151,43 +146,28 @@ Computer skills
 ---------------
 
 **Languages:**
-	Python, Bash, JavaScript, HTML5, CSS3, SQL.
-
-**Databases:**
-	PostgreSQL, MongoDB, ElasticSearch, Redis, Memcached, Redshift.
-
-**Web servers:**
-	Nginx, Apache.
-
-**Environments:**
-	Vim, Make, Android Studio, Eclipse. Git, Mercurial, Subversion.
-
-**Frameworks:**
-	Django, Django REST framework, Celery, Cornice, Scrapy, Airflow, Pyramid, Bootstrap, Mako, WordPress, OpenCV, OpenGL.
+	Python, Bash script, Elixir (*learning*).
 
 **Testing:**
-	TDD, unittest, Selenium.
+	TDD (Test-driven development), unittest, pytest, Selenium.
+
+**Databases:**
+	PostgreSQL, MongoDB, ElasticSearch, Redis.
+
+**Frameworks:**
+	Django, Django REST framework, Celery, Airflow.
 
 **Infrastructure:**
 	Kubernetes, AWS, Azure, DigitalOcean.
 
 **Deployment:**
-	Docker, Helm, Jenkins, Ansible, Terraform, Fabric, VirtualEnv, Supervisor, Upstart, Vagrant.
+	Docker, Helm, Jenkins, Terraform, Ansible, Supervisor, Nginx.
 
 **Data Science:**
 	Pandas, Keras, Jupyter.
 
-**Technologies:**
-	RESTful Web Services, Ajax.
-
-**APIs:**
-	PayPal, Google Wallet, Amazon, Facebook, Twitter, Instagram, Braintree, Telegram.
-
-**Platforms:**
-	GNU/Linux (Ubuntu, Debian, SuSE Enterprise Server, CentOS), Android.
-
-**Others:**
-	LaTeX.
+**Environments:**
+	Vim/NeoVim, Make, Git.
 
 Personal skills
 ---------------
@@ -196,18 +176,15 @@ Personal skills
 
 * Ability to find creative solutions.
 * Strong analytical, able to anticipate issues, resolve concerns and improve efficiency.
-* Good software engineering skills.
-* Care of coding standards.
+* Care of coding standards and best practices.
 * Eager to learn and develop new skills.
 
 ### Others:
 
 * Ability to work without direct supervision.
-* Skilled in building excellent rapport with team members and clients.
-* Great verbal and written communication skills (wide experience in both Spanish and English).
-* Professional experience in public speaking.
+* Great written communication skills (wide experience in both Spanish and English).
 
 Interests
 =========
 
-GNU/Linux, web servers, web spiders, image processing, computer vision, computer graphics, artificial intelligence, compilers development, security.
+GNU/Linux, free software, image processing, computer vision, computer graphics, artificial intelligence.

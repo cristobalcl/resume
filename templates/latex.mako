@@ -16,8 +16,15 @@
 %% moderncv themes
 \moderncvtheme[${config["color"]}]{classic} % optional argument are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
 
+\moderncvicons{awesome}
+
+\usepackage{fontawesome}
+
 \usepackage[utf8]{inputenc}
 \usepackage{color}
+
+\usepackage{fontspec}
+\newfontfamily\DejaSans{DejaVu Sans}
 
 \usepackage[scale=0.8]{geometry}
 
@@ -33,7 +40,6 @@
 \homepage{${personal_info["webs"][0]["url"]}}
 \extrainfo{${personal_info["birth"]}}
 \photo[104pt][0.0pt]{${personal_info["photo"]}} % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
-\quote{``${quote["line"]}'' -- ${quote["author"]}}
 
 \begin{document}
 \maketitle
@@ -44,6 +50,11 @@
 \section{Education}
 % for edu in education:
 \cventry{${edu["range"]}}{${edu["title"]}}{${edu["organization"]}}{}{}{${edu["comments"] if "comments" in edu and edu["comments"] else ""}}
+% endfor
+
+\section{Certifications}
+% for cert in certifications:
+\cventry{\href{${cert["url"]}}{\faCertificate}}{${cert["title"]}}{${cert["organization"]}}{}{}{}
 % endfor
 
 \section{Experience}
@@ -60,13 +71,13 @@ ${exp["comments"]}
 % endif
 }
 % endfor
-% for thes in thesis:
+## % for thes in thesis:
 
-\section{${thes["name"]}}
-\cvline{Title}{\emph{``${thes["title"]}''}}
-\cvline{Supervisors}{${thes["supervisors"]}}
-\cvline{Description}{\small ${thes["description"]}}
-% endfor
+## \section{${thes["name"]}}
+## \cvline{Title}{\emph{``${thes["title"]}''}}
+## \cvline{Supervisors}{${thes["supervisors"]}}
+## \cvline{Description}{\small ${thes["description"]}}
+## % endfor
 
 \section{Personal projects}
 % for proj in personal_projects:

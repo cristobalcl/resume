@@ -29,8 +29,8 @@ jobs:
         root_file: /github/workspace/build/resume.tex
         args: "-lualatex -latexoption=-file-line-error -latexoption=-interaction=nonstopmode -output-directory=/github/workspace/build"
 
-    - name: Shrink and copy PDF document
-      run: tools/shrinkpdf2 $GITHUB_WORKSPACE/build/resume.pdf output/cristobal-resume.pdf
+    # - name: Shrink and copy PDF document
+    #   run: tools/shrinkpdf2 $GITHUB_WORKSPACE/build/resume.pdf output/cristobal-resume.pdf
 
     # - name: Generate LibreOffice document
     #   uses: docker://pandoc/core:2.9
