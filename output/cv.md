@@ -29,7 +29,7 @@ Education
 Certifications
 ==============
 
-* [⬡](https://www.youracclaim.com/badges/392317f0-0508-4901-b27c-4bb3cf924f2e/linked_in_profile) **AWS Certified Solutions Architect – Associate**, Amazon Web Services.
+* [⬡](https://www.youracclaim.com/badges/392317f0-0508-4901-b27c-4bb3cf924f2e/linked_in_profile) **[AWS Certified Solutions Architect – Associate](https://www.youracclaim.com/badges/392317f0-0508-4901-b27c-4bb3cf924f2e/linked_in_profile)**, Amazon Web Services.
 
 Experience
 ==========
