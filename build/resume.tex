@@ -1,0 +1,172 @@
+
+
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+\moderncvtheme[blue]{classic} % optional argument are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+
+\moderncvicons{awesome}
+
+\usepackage{fontawesome}
+
+\usepackage[utf8]{inputenc}
+\usepackage{color}
+
+\usepackage{fontspec}
+\newfontfamily\DejaSans{DejaVu Sans}
+
+\usepackage[scale=0.8]{geometry}
+
+\renewcommand{\labelitemi}{--}
+
+\firstname{Cristóbal}
+\familyname{Carnero Liñán}
+%\title{}
+\mobile{+34 655 52 79 11}
+%\phone{}
+%\fax{}
+\email{ccarnerolinan@gmail.com}
+\homepage{https://cristobal.dev}
+\extrainfo{12th February, 1981}
+\photo[104pt][0.0pt]{cristobal.png} % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+
+\begin{document}
+\maketitle
+
+\section{Summary}
+\cvline{}{AWS Solutions Architect certified with more than 10 years of professional experience designing, building and deploying server-side solutions in the cloud, for different industries like management consulting, energy, video games, and university research groups. Expertise in web APIs, Data Engineering and DevOps.}
+
+\section{Education}
+\cventry{2009 – 2011}{Master in Software Engineer and Artificial Intelligence}{Universidad de Málaga}{}{}{}
+\cventry{2002 – 2007}{Computer and Software Engineering}{Universidad de Málaga}{}{}{5-year university degree. Bachelor Thesis approved with Special Distinction.}
+
+\section{Certifications}
+\cventry{\href{https://www.youracclaim.com/badges/392317f0-0508-4901-b27c-4bb3cf924f2e/linked_in_profile}{\faCertificate}}{AWS Certified Solutions Architect – Associate}{Amazon Web Services}{}{}{}
+
+\section{Experience}
+\cventry{Since Nov 2018}{Cathedral Software}{Senior Data Engineer \& DevOps}{}{}{
+	\begin{itemize}
+		\item Work for one of the biggest management consulting firm.
+		\item Develop backend services for web applications using Django REST Framework for API, Celery for background tasks, and Django Channels for notitifications.
+		\item Work with Data Science team in order to design and implement cloud architecture solutions in both AWS \& Azure, using Terraform.
+		\item Implement continuos integration with different stacks: CircleCI, Azure DevOps, Docker, Helm, Kubernetes.
+	\end{itemize}
+}
+\cventry{Feb 2018 - Nov 2018}{Virtually Live}{Senior Server Engineer \& DevOps}{}{}{
+	\begin{itemize}
+		\item Independently responsible for designing full real-time data pipeline architecture from the ingestion of telemetry from live events (\emph{Formula E}), processing, and serve the output stream data to mobile games at scale.
+		\item Implement the key parts of the architecture in Python using technologies like ZeroMQ, Kafka and Tornado.
+		\item Work closely with Data Science team to provide a stream processing framework using Apache Heron for their needs.
+		\item Deployment of a Kubernetes cluster in AWS using Ansible, including hosted applications using Helm, and continuos integration with Jenkins.
+		\item Contributions to open source project Apache Heron in order to fix deployment to Kubernetes and complete its documentation.
+		\item Work with R\&D department designing and developing a prototype for a real time computer vision app using deep learning with Keras.
+	\end{itemize}
+}
+\cventry{2017-2018}{Cathedral Software}{Senior Software Engineer}{}{}{
+	\begin{itemize}
+		\item Work on the data pipeline of the business intelligence platform of one of the largest travel web companies.
+		\item Develop ETL in Airflow to calculate KPIs and provide reporting capabilities for internal tools of the client company.
+		\item Responsible to design and develop backend solution to provide real time chat and other features to mobile app using Tornado.
+	\end{itemize}
+}
+\cventry{2015 - 2017}{VATIA Energía}{Software Engineering Manager}{}{}{
+	\begin{itemize}
+		\item Responsible to design and develop a web platform for automatic \emph{Virtual Energetic Audit} and \emph{Energetic Benchmarking}.
+		\item Develop key parts of the system: Node.js APIs, background tasks using Celery for monitoring, and data analysis/reporting with Pandas and Matplotlib.
+		\item Responsible for recruiting technical staff: write job descriptions, qualify resumes, interview candidates and provide assessments.
+	\end{itemize}
+}
+\cventry{2011 – 2013}{Melomics Media}{Backend Developer, DevOps}{}{}{
+	\begin{itemize}
+		\item Server side development and deployment of a massive online repository of computer generated music, with search, streaming, purchases and public API.
+		\item Administration of a cluster of Debian servers.
+		\item Development of automatic video edition software with additional post-processing capabilities as chroma key, filters, titles, subtitles, publishing,...
+		\item Technologies: Python, web.py, MongoDB, ElasticSearch, Memcached. APIs: Paypal, Google Wallet, Facebook, Google+.
+	\end{itemize}
+}
+\cventry{2009 – 2011}{Universidad de Málaga}{Researcher}{}{}{
+	\begin{itemize}
+		\item Computer vision research in the department of \emph{“Computational Intelligence and Image Analysis”}, managed by José Muñoz Perez and Enrique Dominguez Merino.
+		\item Technologies: Python, C++, OpenCV, cvBlob, Matlab, Octave.
+	\end{itemize}
+}
+\cventry{2007 – 2009}{Tedial S.L.}{Backend Developer, System Administrator}{}{}{
+	\begin{itemize}
+		\item Server-side media storage technologies.
+		\item Authentication, authorization, and access control with LDAP.
+		\item Management software for surveillance cameras.
+		\item Deployment of software and administration of several SuSE Enterprise Server client installations.
+		\item Technologies: C++, Python, Oracle, SOAP.
+	\end{itemize}
+}
+\cventry{2005 – 2006}{Novasoft}{Software and Web Developer}{}{}{
+	\begin{itemize}
+		\item Educational video games in Flash.
+		\item Started in a one month scholarship, but then the company hired for a longer project.
+		\item Technologies: Flash, ActionScript, HTML, Javascript.
+	\end{itemize}
+}
+
+
+\section{Personal projects}
+	\cventry{Since 2020}{EnRemo.to}{\href{https://enremo.to}{https://enremo.to}}{}{}{
+	\begin{itemize}
+		\item Directory of tools for remote working developed during COVID-19 as a weekend No-Code project.
+		\item Job offers for remote positions in companies based in Spain.
+		\item Blog about remote working.
+	\end{itemize}
+	}
+	\cventry{Since 2016}{Mukabe}{\href{https://mukabe.com}{https://mukabe.com}}{}{}{
+	\begin{itemize}
+		\item \emph{Mukabe} is the new way of navigate through information, the new social and online organization, and the new way to get visibility for you, your projects or your company.
+		\item Technologies: Python, Django, Celery, Redis, ElasticSearch, Ansible, Fabric, AWS, Social APIs (Instagram, Facebook, Google+), HTML5, CSS3, Bootstrap, JavaScript, JQuery.
+	\end{itemize}
+	}
+	\cventry{Since 2015}{RegaloInteligente}{\href{http://regalointeligente.com}{http://regalointeligente.com}}{}{}{
+	\begin{itemize}
+		\item Search engine of gifts with parameters like gender and age, and filter for prices.
+		\item Web and Android applications. Twitter bot with auto posting and automatic reply. Telegram bot.
+		\item Technologies: Python, Pyramid, MongoDB, ElasticSearch, Amazon Product Advertising API, Twitter API, Telegram Bot API, HTML5, CSS3, Bootstrap, JavaScript, JQuery.
+	\end{itemize}
+	}
+
+\section{Free Software Projects}
+\cventry{2014 – 2015}{WooDPD}{\href{https://es.wordpress.org/plugins/woodpd/}{https://es.wordpress.org/plugins/woodpd/}}{}{}{WordPress Plugin to integrate DPD purchases in WooCommerce.}
+\cventry{2009 – 2012}{cvBlob}{\href{https://github.com/cristobalcl/cvblob}{https://github.com/cristobalcl/cvblob}}{}{}{Blob library for OpenCV, widely used in computer vision and robotic research.}
+
+\section{Languages}
+\cvlanguage{Spanish}{Native}{}
+\cvlanguage{English}{Fluent}{}
+
+\section{Qualities}
+
+\subsection{Computer skills}
+\cvline{Languages:}{\small Python, Bash script, Elixir (\emph{learning}).}
+\cvline{Testing:}{\small TDD (Test-driven development), unittest, pytest, Selenium.}
+\cvline{Databases:}{\small PostgreSQL, MongoDB, ElasticSearch, Redis.}
+\cvline{Frameworks:}{\small Django, Django REST framework, Celery, Airflow.}
+\cvline{Infrastructure:}{\small Kubernetes, AWS, Azure, DigitalOcean.}
+\cvline{Deployment:}{\small Docker, Helm, Jenkins, Terraform, Ansible, Supervisor, Nginx.}
+\cvline{Data Science:}{\small Pandas, Keras, Jupyter.}
+\cvline{Environments:}{\small Vim/NeoVim, Make, Git.}
+
+\subsection{Personal skills}
+\cvline{Engineering}{
+	\begin{itemize}
+		\item Ability to find creative solutions.
+		\item Strong analytical, able to anticipate issues, resolve concerns and improve efficiency.
+		\item Care of coding standards and best practices.
+		\item Eager to learn and develop new skills.
+	\end{itemize}
+}
+\cvline{Others}{
+	\begin{itemize}
+		\item Ability to work without direct supervision.
+		\item Great written communication skills (wide experience in both Spanish and English).
+	\end{itemize}
+}
+
+\subsection{Interests}
+\cvline{}{GNU/Linux, free software, image processing, computer vision, computer graphics, artificial intelligence.}
+
+\end{document}
