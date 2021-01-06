@@ -110,7 +110,7 @@ Personal Projects
 
 * Since 2020 **EnRemo.to**, <https://enremo.to>.
 
-	+ Directory of tools for remote working developed during COVID-19 as a weekend No-Code project.
+	+ Directory of tools for remote working built in less than 24h during COVID-19 as a No-Code project.
 	+ Job offers for remote positions in companies based in Spain.
 	+ Blog about remote working.
 * Since 2016 **Mukabe**, <https://mukabe.com>.
