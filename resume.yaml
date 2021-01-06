@@ -124,7 +124,7 @@ personal_projects:
       name: "EnRemo.to"
       url: "https://enremo.to"
       description:
-        - "Directory of tools for remote working developed during COVID-19 as a weekend No-Code project."
+        - "Directory of tools for remote working built in less than 24h during COVID-19 as a No-Code project."
         - "Job offers for remote positions in companies based in Spain."
         - "Blog about remote working."
     - range: "Since 2016"
