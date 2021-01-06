@@ -1,11 +1,18 @@
+
+
 ---
-title: "Curriculum Vitae"
-description: "Curriculum Vitae"
-date: "2021-01-06"
-slug: "cv"
+lang: en-US
+papersize: a4paper
+geometry: a4paper
+fontsize: 12pt
+documentclass: book
+classoption: oneside
 ---
 
-[Download .PDF ⬇](https://github.com/cristobalcl/resume/raw/master/output/cristobal-resume.pdf)
+![Cristóbal Carnero Liñán](cristobal.png)
+
+Cristóbal Carnero Liñán – Resume
+=====================================
 
 * **Phone:** +34 655 52 79 11
 * **Email:** [ccarnerolinan@gmail.com](ccarnerolinan@gmail.com)
@@ -29,7 +36,7 @@ Education
 Certifications
 ==============
 
-* [https://www.youracclaim.com/badges/392317f0-0508-4901-b27c-4bb3cf924f2e/linked_in_profile](🟢) **AWS Certified Solutions Architect – Associate**, Amazon Web Services.
+* [⬡](https://www.youracclaim.com/badges/392317f0-0508-4901-b27c-4bb3cf924f2e/linked_in_profile) **AWS Certified Solutions Architect – Associate**, Amazon Web Services.
 
 Experience
 ==========
@@ -85,25 +92,25 @@ Master Thesis
 ===============
 
 **Title:**
-	*“Shape recognition through new convexity descriptors”*
+:	*“Shape recognition through new convexity descriptors”*
 
 **Supervisors:**
-	José Muñoz Perez, Enrique Dominguez Merino
+:	José Muñoz Perez, Enrique Dominguez Merino
 
 **Description:**
-	For this project several new convexity descriptors were devised. Then they were tested in the recognition of the *American Sign Language* used by deaf people.
+:	For this project several new convexity descriptors were devised. Then they were tested in the recognition of the *American Sign Language* used by deaf people.
 
 Bachelor Thesis
 ===============
 
 **Title:**
-	*“A Video Surveillance System for Fall Detection”*
+:	*“A Video Surveillance System for Fall Detection”*
 
 **Supervisors:**
-	José Muñoz Perez
+:	José Muñoz Perez
 
 **Description:**
-	Development of a video surveillance software to automatically detect the fall of persons.
+:	Development of a video surveillance software to automatically detect the fall of persons.
 
 Personal Projects
 =================
@@ -146,28 +153,21 @@ Computer skills
 ---------------
 
 **Languages:**
-	Python, Bash script, Elixir (*learning*).
-
+:	Python, Bash script, Elixir (*learning*).
 **Testing:**
-	TDD (Test-driven development), unittest, pytest, Selenium.
-
+:	TDD (Test-driven development), unittest, pytest, Selenium.
 **Databases:**
-	PostgreSQL, MongoDB, ElasticSearch, Redis.
-
+:	PostgreSQL, MongoDB, ElasticSearch, Redis.
 **Frameworks:**
-	Django, Django REST framework, Celery, Airflow.
-
+:	Django, Django REST framework, Celery, Airflow.
 **Infrastructure:**
-	Kubernetes, AWS, Azure, DigitalOcean.
-
+:	Kubernetes, AWS, Azure, DigitalOcean.
 **Deployment:**
-	Docker, Helm, Jenkins, Terraform, Ansible, Supervisor, Nginx.
-
+:	Docker, Helm, Jenkins, Terraform, Ansible, Supervisor, Nginx.
 **Data Science:**
-	Pandas, Keras, Jupyter.
-
+:	Pandas, Keras, Jupyter.
 **Environments:**
-	Vim/NeoVim, Make, Git.
+:	Vim/NeoVim, Make, Git.
 
 Personal skills
 ---------------
