@@ -3,4 +3,5 @@
 .DS_Store
 output/*.odt
 output/*.docx
+build
 .mypy_cache
