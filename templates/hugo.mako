@@ -43,7 +43,7 @@ Certifications
 ==============
 
 % for cert in certifications:
-* [${cert["url"]}](🟢) **${cert["title"]}**, ${cert["organization"]}.
+* [⬡](${cert["url"]}) **${cert["title"]}**, ${cert["organization"]}.
 % if "comments" in cert and cert["comments"]:
 
 	> ${cert["comments"]}
