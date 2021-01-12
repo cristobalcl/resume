@@ -20,7 +20,7 @@ personal_info:
     birth: "12th February, 1981"
     photo: "cristobal.png"
 
-summary: "AWS Solutions Architect certified with more than 10 years of professional experience designing, building and deploying server-side solutions in the cloud, for different industries like management consulting, energy, video games, and university research groups. Expertise in web APIs, Data Engineering and DevOps."
+summary: "AWS Solutions Architect certified with more than 10 years of professional experience designing, building and deploying server-side solutions in the cloud, for different industries like management consulting, energy and utilities, video games, and university research groups. Expertise in Backend Development, Data Engineering and DevOps."
 
 education:
     - range: "2009 – 2011"
@@ -80,7 +80,7 @@ experience:
     #     - "Speaker."
     - range: "2011 – 2013"
       company: "Melomics Media"
-      position: "Backend Developer, DevOps"
+      position: "Backend Developer & System Administrator"
       comments:
         - "Server side development and deployment of a massive online repository of computer generated music, with search, streaming, purchases and public API."
         - "Administration of a cluster of Debian servers."
@@ -93,17 +93,18 @@ experience:
         - "Computer vision research in the department of <*“Computational Intelligence and Image Analysis”*>, managed by José Muñoz Perez and Enrique Dominguez Merino."
         - "Technologies: Python, C++, OpenCV, cvBlob, Matlab, Octave."
     - range: "2007 – 2009"
-      company: "Tedial S.L."
-      position: "Backend Developer, System Administrator"
+      company: "Tedial"
+      position: "Backend Developer & System Administrator"
       comments:
         - "Server-side media storage technologies."
+        - "Development of an interpreter for a custom programming language designed for testing DB operations."
         - "Authentication, authorization, and access control with LDAP."
         - "Management software for surveillance cameras."
         - "Deployment of software and administration of several SuSE Enterprise Server client installations."
         - "Technologies: C++, Python, Oracle, SOAP."
     - range: "2005 – 2006"
       company: "Novasoft"
-      position: "Software and Web Developer"
+      position: "Software & Web Developer"
       comments:
         - "Educational video games in Flash."
         - "Started in a one month scholarship, but then the company hired for a longer project."
@@ -169,7 +170,8 @@ languages:
 
 computer_skills:
     - Languages: "Python, Bash script, Elixir (<*learning*>)."
-    - Testing: "TDD (Test-driven development), unittest, pytest, Selenium."
+    - "Software Engineering": "TDD (Test-driven development), Clean Architecture."
+    # - Testing: "unittest, pytest, Selenium."
     - Databases: "PostgreSQL, MongoDB, ElasticSearch, Redis."
     - Frameworks: "Django, Django REST framework, Celery, Airflow."
     - Infrastructure: "Kubernetes, AWS, Azure, DigitalOcean."
@@ -191,4 +193,4 @@ personal_skills:
         - Ability to work without direct supervision.
         - Great written communication skills (wide experience in both Spanish and English).
 
-interests: "GNU/Linux, free software, image processing, computer vision, computer graphics, artificial intelligence."
+interests: "GNU/Linux, free software, DDD (Domain-Driven Design), image processing, computer vision, computer graphics, artificial intelligence."

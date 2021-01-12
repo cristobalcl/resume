@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2021-01-06"
+date: "2021-01-12"
 slug: "cv"
 ---
 
@@ -16,7 +16,7 @@ slug: "cv"
 Summary
 =======
 
-AWS Solutions Architect certified with more than 10 years of professional experience designing, building and deploying server-side solutions in the cloud, for different industries like management consulting, energy, video games, and university research groups. Expertise in web APIs, Data Engineering and DevOps.
+AWS Solutions Architect certified with more than 10 years of professional experience designing, building and deploying server-side solutions in the cloud, for different industries like management consulting, energy and utilities, video games, and university research groups. Expertise in Backend Development, Data Engineering and DevOps.
 
 Education
 =========
@@ -58,7 +58,7 @@ Experience
 	+ Responsible to design and develop a web platform for automatic *Virtual Energetic Audit* and *Energetic Benchmarking*.
 	+ Develop key parts of the system: Node.js APIs, background tasks using Celery for monitoring, and data analysis/reporting with Pandas and Matplotlib.
 	+ Responsible for recruiting technical staff: write job descriptions, qualify resumes, interview candidates and provide assessments.
-* 2011 – 2013 **Melomics Media**, *Backend Developer, DevOps*.
+* 2011 – 2013 **Melomics Media**, *Backend Developer & System Administrator*.
 
 	+ Server side development and deployment of a massive online repository of computer generated music, with search, streaming, purchases and public API.
 	+ Administration of a cluster of Debian servers.
@@ -68,14 +68,15 @@ Experience
 
 	+ Computer vision research in the department of *“Computational Intelligence and Image Analysis”*, managed by José Muñoz Perez and Enrique Dominguez Merino.
 	+ Technologies: Python, C++, OpenCV, cvBlob, Matlab, Octave.
-* 2007 – 2009 **Tedial S.L.**, *Backend Developer, System Administrator*.
+* 2007 – 2009 **Tedial**, *Backend Developer & System Administrator*.
 
 	+ Server-side media storage technologies.
+	+ Development of an interpreter for a custom programming language designed for testing DB operations.
 	+ Authentication, authorization, and access control with LDAP.
 	+ Management software for surveillance cameras.
 	+ Deployment of software and administration of several SuSE Enterprise Server client installations.
 	+ Technologies: C++, Python, Oracle, SOAP.
-* 2005 – 2006 **Novasoft**, *Software and Web Developer*.
+* 2005 – 2006 **Novasoft**, *Software & Web Developer*.
 
 	+ Educational video games in Flash.
 	+ Started in a one month scholarship, but then the company hired for a longer project.
@@ -110,7 +111,7 @@ Personal Projects
 
 * Since 2020 **EnRemo.to**, <https://enremo.to>.
 
-	+ Directory of tools for remote working developed during COVID-19 as a weekend No-Code project.
+	+ Directory of tools for remote working built in less than 24h during COVID-19 as a No-Code project.
 	+ Job offers for remote positions in companies based in Spain.
 	+ Blog about remote working.
 * Since 2016 **Mukabe**, <https://mukabe.com>.
@@ -148,8 +149,8 @@ Computer skills
 **Languages:**
 	Python, Bash script, Elixir (*learning*).
 
-**Testing:**
-	TDD (Test-driven development), unittest, pytest, Selenium.
+**Software Engineering:**
+	TDD (Test-driven development), Clean Architecture.
 
 **Databases:**
 	PostgreSQL, MongoDB, ElasticSearch, Redis.
@@ -187,4 +188,4 @@ Personal skills
 Interests
 =========
 
-GNU/Linux, free software, image processing, computer vision, computer graphics, artificial intelligence.
+GNU/Linux, free software, DDD (Domain-Driven Design), image processing, computer vision, computer graphics, artificial intelligence.
