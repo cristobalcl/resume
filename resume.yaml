@@ -170,7 +170,7 @@ languages:
 
 computer_skills:
     - Languages: "Python, Bash script, Elixir (<*learning*>)."
-    - "Software Engineering": "TDD (Test-driven development), Clean Architecture."
+    - "Software Engineering": "TDD (Test-Driven Development), Clean Architecture."
     # - Testing: "unittest, pytest, Selenium."
     - Databases: "PostgreSQL, MongoDB, ElasticSearch, Redis."
     - Frameworks: "Django, Django REST framework, Celery, Airflow."
