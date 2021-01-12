@@ -150,7 +150,7 @@ Computer skills
 	Python, Bash script, Elixir (*learning*).
 
 **Software Engineering:**
-	TDD (Test-driven development), Clean Architecture.
+	TDD (Test-Driven Development), Clean Architecture.
 
 **Databases:**
 	PostgreSQL, MongoDB, ElasticSearch, Redis.
