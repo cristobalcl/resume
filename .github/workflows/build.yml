@@ -45,6 +45,11 @@ jobs:
     - name: Copy Hugo document
       run: cp $GITHUB_WORKSPACE/build/resume.hugo output/cv.md
 
+    - name: Check for changes
+      run: |
+        ! git diff-index --quiet HEAD --
+      continue-on-error: true
+
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"
