@@ -58,10 +58,10 @@ jobs:
         git config --local user.name "GitHub Action"
         git add .
         git commit -m "Update outputs"
-      if: steps.git_changes.outputs.exit_code == 0
+      if: steps.git_changes.outputs.exit_code == 1
 
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-      if: steps.git_changes.outputs.exit_code == 0
+      if: steps.git_changes.outputs.exit_code == 1
