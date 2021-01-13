@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2021-01-12"
+date: "2021-01-13"
 slug: "cv"
 ---
 
@@ -150,7 +150,7 @@ Computer skills
 	Python, Bash script, Elixir (*learning*).
 
 **Software Engineering:**
-	TDD (Test-driven development), Clean Architecture.
+	TDD (Test-Driven Development), Clean Architecture.
 
 **Databases:**
 	PostgreSQL, MongoDB, ElasticSearch, Redis.
@@ -188,4 +188,4 @@ Personal skills
 Interests
 =========
 
-GNU/Linux, free software, DDD (Domain-Driven Design), image processing, computer vision, computer graphics, artificial intelligence.
+DDD (Domain-Driven Design), software architecture, GNU/Linux, free software, image processing, computer vision, computer graphics, artificial intelligence.
