@@ -108,12 +108,12 @@ ${exp["comments"]}
 
 \subsection{Computer skills}
 % for skills in computer_skills:
-\cvline{${list(skills.keys())[0]}:}{\small ${list(skills.values())[0]}}
+\cvline{\emph{${list(skills.keys())[0]}}:}{\small ${list(skills.values())[0]}}
 % endfor
 
 \subsection{Personal skills}
 % for skills in personal_skills:
-\cvline{${list(skills.keys())[0]}}{
+  \cvline{\emph{${list(skills.keys())[0]}}}{
 	\begin{itemize}
 % for desc in list(skills.values())[0]:
 		\item ${desc}

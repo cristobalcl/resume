@@ -170,14 +170,14 @@ languages:
 
 computer_skills:
     - Languages: "Python, Bash script, Elixir (<*learning*>)."
-    - "Software Engineering": "TDD (Test-Driven Development), Clean Architecture."
+    - "Software Engineering": "TDD (Test-Driven Development), Clean Architecture, Scrum, Git-flow, Trunk-Based Development."
     # - Testing: "unittest, pytest, Selenium."
     - Databases: "PostgreSQL, MongoDB, ElasticSearch, Redis."
     - Frameworks: "Django, Django REST framework, Celery, Airflow."
     - Infrastructure: "Kubernetes, AWS, Azure, DigitalOcean."
     - Deployment: "Docker, Helm, Jenkins, Terraform, Ansible, Supervisor, Nginx."
     - "Data Science": "Pandas, Keras, Jupyter."
-    - Environments: "Vim/NeoVim, Make, Git."
+    - Environments: "Git, Make, Vim/NeoVim, tmux, Bash, Fish."
     # - Technologies: "RESTful Web Services, Ajax."
     # - APIs: "PayPal, Amazon Product Advertising API, Facebook, Twitter, Instagram, Telegram."
     # - Platforms: "GNU/Linux (Ubuntu, SuSE Enterprise Server, CentOS)."
