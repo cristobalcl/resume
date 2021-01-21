@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2021-01-16"
+date: "2021-01-21"
 slug: "cv"
 ---
 
@@ -36,8 +36,8 @@ Experience
 
 * Since Nov 2018 **Cathedral Software**, *Senior Data Engineer & DevOps*.
 
-	+ Work for one of the biggest management consulting firm.
-	+ Develop backend services for web applications using Django REST Framework for API, Celery for background tasks, and Django Channels for notitifications.
+	+ Develop solutions for international client, one of the biggest management consulting firm.
+	+ Backend services for web applications using Django REST Framework for API, Celery for background tasks, and Django Channels for notitifications.
 	+ Work with Data Science team in order to design and implement cloud architecture solutions in both AWS & Azure, using Terraform.
 	+ Implement continuos integration with different stacks: CircleCI, Azure DevOps, Docker, Helm, Kubernetes.
 * Feb 2018 - Nov 2018 **Virtually Live**, *Senior Server Engineer & DevOps*.
