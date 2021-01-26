@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2021-01-21"
+date: "2021-01-26"
 slug: "cv"
 ---
 
@@ -127,9 +127,9 @@ Personal Projects
 Free Software Projects
 ======================
 
-* 2014 – 2015 **WooDPD**, <https://es.wordpress.org/plugins/woodpd/>.
+* 2014 – 2015 **Datacker**, <https://github.com/cristobalcl/datacker>.
 
-	> WordPress Plugin to integrate DPD purchases in WooCommerce.
+	> Convert your notebooks to runnable Docker images. The quickest way to bring Data Scientists work to production.
 * 2009 – 2012 **cvBlob**, <https://github.com/cristobalcl/cvblob>.
 
 	> Blob library for OpenCV, widely used in computer vision and robotic research.
