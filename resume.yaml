@@ -149,7 +149,7 @@ personal_projects:
     #     - "Technologies: Python, Pyramid, MongoDB, ElasticSearch, Scrapy."
 
 free_software:
-    - range: "2014 – 2015"
+    - range: "Since 2021"
       name: "Datacker"
       url: "https://github.com/cristobalcl/datacker"
       description: "Convert your notebooks to runnable Docker images. The quickest way to bring Data Scientists work to production."
