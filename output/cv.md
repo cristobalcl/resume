@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2021-01-26"
+date: "2021-01-29"
 slug: "cv"
 ---
 
@@ -127,7 +127,7 @@ Personal Projects
 Free Software Projects
 ======================
 
-* 2014 – 2015 **Datacker**, <https://github.com/cristobalcl/datacker>.
+* Since 2021 **Datacker**, <https://github.com/cristobalcl/datacker>.
 
 	> Convert your notebooks to runnable Docker images. The quickest way to bring Data Scientists work to production.
 * 2009 – 2012 **cvBlob**, <https://github.com/cristobalcl/cvblob>.
