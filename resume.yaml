@@ -38,7 +38,16 @@ certifications:
       url: "https://www.youracclaim.com/badges/392317f0-0508-4901-b27c-4bb3cf924f2e/linked_in_profile"
 
 experience:
-    - range: "Since Nov 2018"
+    - range: "Since Apr 2021"
+      company: "Freelance"
+      position: "MLOps Engineer & DevOps"
+      comments:
+        - "MLOps and DevOps for one of the top 10 pharmaceutical companies as contractor."
+        - "Admin DKube/Kubeflow/Kubernetes infrastructure."
+        - "Create and deploy Kubeflow pipelines and models with KServe."
+        - "Work with DS teams to support them in all the stages of the ML lifecycle. That includes: creating proof of concepts, help with specific parts of the code, deploy in production, create utilities libraries, custom Docker images, training sessions,..."
+        - "Manage infrastructure with Terraform (for AWS) and GitLab CI pipelines for Business Analytics project."
+    - range: "Nov 2018 - Mar 2021"
       company: "Cathedral Software"
       position: "Senior Data Engineer & DevOps"
       comments:
