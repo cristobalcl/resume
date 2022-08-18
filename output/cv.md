@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2021-01-29"
+date: "2022-08-18"
 slug: "cv"
 ---
 
@@ -16,7 +16,7 @@ slug: "cv"
 Summary
 =======
 
-AWS Solutions Architect certified with more than 10 years of professional experience designing, building and deploying server-side solutions in the cloud, for different industries like management consulting, energy and utilities, video games, and university research groups. Expertise in Backend Development, Data Engineering and DevOps.
+AWS Solutions Architect certified with more than 10 years of professional experience designing, building and deploying server-side solutions in the cloud, for different industries like management consulting, energy and utilities, video games, and university research groups. Expertise in Backend Development, Data Engineering and DevOps. Fullstack web3 developer.
 
 Education
 =========
@@ -34,7 +34,14 @@ Certifications
 Experience
 ==========
 
-* Since Nov 2018 **Cathedral Software**, *Senior Data Engineer & DevOps*.
+* Since Apr 2021 **Freelance**, *MLOps Engineer & DevOps*.
+
+	+ MLOps and DevOps for one of the top 10 pharmaceutical companies as contractor.
+	+ Admin DKube/Kubeflow/Kubernetes infrastructure.
+	+ Create and deploy Kubeflow pipelines and models with KServe.
+	+ Work with DS teams to support them in all the stages of the ML lifecycle. That includes: creating proof of concepts, help with specific parts of the code, deploy in production, create utilities libraries and templates, custom Docker images, writing documentation, training sessions,...
+	+ Manage infrastructure with Terraform (for AWS) and GitLab CI pipelines for Business Analytics project.
+* Nov 2018 - Mar 2021 **Cathedral Software**, *Senior Data Engineer & DevOps*.
 
 	+ Develop solutions for international client, one of the biggest management consulting firm.
 	+ Backend services for web applications using Django REST Framework for API, Celery for background tasks, and Django Channels for notitifications.
@@ -109,16 +116,20 @@ Bachelor Thesis
 Personal Projects
 =================
 
-* Since 2020 **EnRemo.to**, <https://enremo.to>.
+* Since 2021 **Mukabe Land**, <https://mukabe.land>.
+
+	+ Web3 collaborative two-dimensional canvas, divided into lands, that are tradeable NFTs.
+	+ Responsible for all technical parts of the project: backend, frontend, smart contract, infrastructure, CI/CD.
+* 2020 – 2022 **EnRemo.to**, <https://enremo.to>.
 
 	+ Directory of tools for remote working built in less than 24h during COVID-19 as a No-Code project.
 	+ Job offers for remote positions in companies based in Spain.
 	+ Blog about remote working.
-* Since 2016 **Mukabe**, <https://mukabe.com>.
+* 2016 – 2018 **Mukabe**, <https://mukabe.com>.
 
 	+ *Mukabe* is the new way of navigate through information, the new social and online organization, and the new way to get visibility for you, your projects or your company.
 	+ Technologies: Python, Django, Celery, Redis, ElasticSearch, Ansible, Fabric, AWS, Social APIs (Instagram, Facebook, Google+), HTML5, CSS3, Bootstrap, JavaScript, JQuery.
-* Since 2015 **RegaloInteligente**, <http://regalointeligente.com>.
+* 2015 – 2017 **RegaloInteligente**, <http://regalointeligente.com>.
 
 	+ Search engine of gifts with parameters like gender and age, and filter for prices.
 	+ Web and Android applications. Twitter bot with auto posting and automatic reply. Telegram bot.
@@ -147,7 +158,7 @@ Computer skills
 ---------------
 
 **Languages:**
-	Python, Bash script, Elixir (*learning*).
+	Python, Bash script, JavaScript, Elixir (*learning*).
 
 **Software Engineering:**
 	TDD (Test-Driven Development), Clean Architecture, Scrum, Git-flow, Trunk-Based Development.
@@ -156,7 +167,7 @@ Computer skills
 	PostgreSQL, MongoDB, ElasticSearch, Redis.
 
 **Frameworks:**
-	Django, Django REST framework, Celery, Airflow.
+	Django, Django REST framework, Celery, Airflow, Vue.
 
 **Infrastructure:**
 	Kubernetes, AWS, Azure, DigitalOcean.
@@ -165,7 +176,10 @@ Computer skills
 	Docker, Helm, Jenkins, Terraform, Ansible, Supervisor, Nginx.
 
 **Data Science:**
-	Pandas, Keras, Jupyter.
+	Kubeflow, KServe, DKube, Pandas, TensorFlow, Keras, JupyterLab.
+
+**Web3:**
+	Solidity, HardHat, Vyper, Brownie, web3.py, ether.js, Alchemy.
 
 **Environments:**
 	Git, Make, Vim/NeoVim, tmux, Bash, Fish.

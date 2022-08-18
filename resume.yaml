@@ -20,7 +20,7 @@ personal_info:
     birth: "12th February, 1981"
     photo: "cristobal.png"
 
-summary: "AWS Solutions Architect certified with more than 10 years of professional experience designing, building and deploying server-side solutions in the cloud, for different industries like management consulting, energy and utilities, video games, and university research groups. Expertise in Backend Development, Data Engineering and DevOps."
+summary: "AWS Solutions Architect certified with more than 10 years of professional experience designing, building and deploying server-side solutions in the cloud, for different industries like management consulting, energy and utilities, video games, and university research groups. Expertise in Backend Development, Data Engineering and DevOps. Fullstack web3 developer."
 
 education:
     - range: "2009 – 2011"
@@ -45,7 +45,7 @@ experience:
         - "MLOps and DevOps for one of the top 10 pharmaceutical companies as contractor."
         - "Admin DKube/Kubeflow/Kubernetes infrastructure."
         - "Create and deploy Kubeflow pipelines and models with KServe."
-        - "Work with DS teams to support them in all the stages of the ML lifecycle. That includes: creating proof of concepts, help with specific parts of the code, deploy in production, create utilities libraries, custom Docker images, training sessions,..."
+        - "Work with DS teams to support them in all the stages of the ML lifecycle. That includes: creating proof of concepts, help with specific parts of the code, deploy in production, create utilities libraries and templates, custom Docker images, writing documentation, training sessions,..."
         - "Manage infrastructure with Terraform (for AWS) and GitLab CI pipelines for Business Analytics project."
     - range: "Nov 2018 - Mar 2021"
       company: "Cathedral Software"
@@ -130,20 +130,26 @@ thesis:
       description: "Development of a video surveillance software to automatically detect the fall of persons."
 
 personal_projects:
-    - range: "Since 2020"
+    - range: "Since 2021"
+      name: "Mukabe Land"
+      url: "https://mukabe.land"
+      description:
+        - "Web3 collaborative two-dimensional canvas, divided into lands, that are tradeable NFTs."
+        - "Responsible for all technical parts of the project: backend, frontend, smart contract, infrastructure, CI/CD."
+    - range: "2020 – 2022"
       name: "EnRemo.to"
       url: "https://enremo.to"
       description:
         - "Directory of tools for remote working built in less than 24h during COVID-19 as a No-Code project."
         - "Job offers for remote positions in companies based in Spain."
         - "Blog about remote working."
-    - range: "Since 2016"
+    - range: "2016 – 2018"
       name: "Mukabe"
       url: "https://mukabe.com"
       description:
         - "<*Mukabe*> is the new way of navigate through information, the new social and online organization, and the new way to get visibility for you, your projects or your company."
         - "Technologies: Python, Django, Celery, Redis, ElasticSearch, Ansible, Fabric, AWS, Social APIs (Instagram, Facebook, Google+), HTML5, CSS3, Bootstrap, JavaScript, JQuery."
-    - range: "Since 2015"
+    - range: "2015 – 2017"
       name: "RegaloInteligente"
       url: "http://regalointeligente.com"
       description:
@@ -182,14 +188,15 @@ languages:
       level: "Fluent"
 
 computer_skills:
-    - Languages: "Python, Bash script, Elixir (<*learning*>)."
+    - Languages: "Python, Bash script, JavaScript, Elixir (<*learning*>)."
     - "Software Engineering": "TDD (Test-Driven Development), Clean Architecture, Scrum, Git-flow, Trunk-Based Development."
     # - Testing: "unittest, pytest, Selenium."
     - Databases: "PostgreSQL, MongoDB, ElasticSearch, Redis."
-    - Frameworks: "Django, Django REST framework, Celery, Airflow."
+    - Frameworks: "Django, Django REST framework, Celery, Airflow, Vue."
     - Infrastructure: "Kubernetes, AWS, Azure, DigitalOcean."
     - Deployment: "Docker, Helm, Jenkins, Terraform, Ansible, Supervisor, Nginx."
-    - "Data Science": "Pandas, Keras, Jupyter."
+    - "Data Science": "Kubeflow, KServe, DKube, Pandas, TensorFlow, Keras, JupyterLab."
+    - Web3: "Solidity, HardHat, Vyper, Brownie, web3.py, ether.js, Alchemy."
     - Environments: "Git, Make, Vim/NeoVim, tmux, Bash, Fish."
     # - Technologies: "RESTful Web Services, Ajax."
     # - APIs: "PayPal, Amazon Product Advertising API, Facebook, Twitter, Instagram, Telegram."
