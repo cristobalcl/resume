@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2022-08-18"
+date: "2022-11-24"
 slug: "cv"
 ---
 
@@ -16,7 +16,7 @@ slug: "cv"
 Summary
 =======
 
-AWS Solutions Architect certified with more than 10 years of professional experience designing, building and deploying server-side solutions in the cloud, for different industries like management consulting, energy and utilities, video games, and university research groups. Expertise in Backend Development, Data Engineering and DevOps. Fullstack web3 developer.
+AWS Solutions Architect certified with more than 10 years of professional experience designing, building, and deploying server-side solutions in the cloud, for different industries like management consulting, healthcare, energy and utilities, video games, and university research groups. Expertise in Backend Development, Data Engineering, and DevOps. Fullstack web3 developer, with experience deploying projects on Ethereum blockchain.
 
 Education
 =========
@@ -38,9 +38,9 @@ Experience
 
 	+ MLOps and DevOps for one of the top 10 pharmaceutical companies as contractor.
 	+ Admin DKube/Kubeflow/Kubernetes infrastructure.
-	+ Create and deploy Kubeflow pipelines and models with KServe.
-	+ Work with DS teams to support them in all the stages of the ML lifecycle. That includes: creating proof of concepts, helping with specific parts of the code, deploying in production, creating utilities libraries and templates, custom Docker images, writing documentation, and training sessions.
-	+ Manage infrastructure with Terraform (for AWS) and GitLab CI pipelines for Business Analytics project.
+	+ Create and deploy Kubeflow pipelines, and models with KServe.
+	+ Work with data scientist teams to support them in all the stages of the ML lifecycle. That includes: create proof of concepts, help with specific parts of the code, deploy in production, develop utility libraries and templates, custom Docker images, writing documentation, and training sessions.
+	+ Manage AWS infrastructure using IaC (Infrastructure as Code) with Terraform, GitLab CI pipelines, and data engineering for Business Analytics project.
 * Nov 2018 - Mar 2021 **Cathedral Software**, *Senior Data Engineer & DevOps*.
 
 	+ Develop solutions for international client, one of the biggest management consulting firm.
@@ -49,10 +49,10 @@ Experience
 	+ Implement continuos integration with different stacks: CircleCI, Azure DevOps, Docker, Helm, Kubernetes.
 * Feb 2018 - Nov 2018 **Virtually Live**, *Senior Server Engineer & DevOps*.
 
-	+ Independently responsible for designing full real-time data pipeline architecture from the ingestion of telemetry from live events (*Formula E*), processing, and serve the output stream data to mobile games at scale.
+	+ Responsible for designing full real-time data pipeline architecture from the ingestion of telemetry from live events (*Formula E*), processing, and serve the output stream data to mobile games at scale.
 	+ Implement the key parts of the architecture in Python using technologies like ZeroMQ, Kafka and Tornado.
 	+ Work closely with Data Science team to provide a stream processing framework using Apache Heron for their needs.
-	+ Deployment of a Kubernetes cluster in AWS using Ansible, including hosted applications using Helm, and continuos integration with Jenkins.
+	+ Deployment of a Kubernetes cluster in AWS using Ansible (before EKS existed), including hosted applications using Helm, and continuos integration with Jenkins.
 	+ Contributions to open source project Apache Heron in order to fix deployment to Kubernetes and complete its documentation.
 	+ Work with R&D department designing and developing a prototype for a real time computer vision app using deep learning with Keras.
 * 2017-2018 **Cathedral Software**, *Senior Software Engineer*.
@@ -119,7 +119,7 @@ Personal Projects
 * Since 2021 **Mukabe Land**, <https://mukabe.land>.
 
 	+ Web3 collaborative two-dimensional canvas, divided into lands, that are tradeable NFTs.
-	+ Responsible for all technical parts of the project: backend, frontend, smart contract, infrastructure, CI/CD.
+	+ Responsible for all technical parts of the project: backend, web frontend, smart contract, infrastructure, CI/CD.
 * 2020 – 2022 **EnRemo.to**, <https://enremo.to>.
 
 	+ Directory of tools for remote working built in less than 24h during COVID-19 as a No-Code project.
@@ -179,7 +179,7 @@ Computer skills
 	Kubeflow, KServe, DKube, Pandas, TensorFlow, Keras, JupyterLab.
 
 **Web3:**
-	Solidity, HardHat, Vyper, Brownie, web3.py, ether.js, Alchemy.
+	Solidity, HardHat, Vyper, Brownie, web3.py, ether.js, Alchemy API.
 
 **Environments:**
 	Git, Make, Vim/NeoVim, tmux, Bash, Fish.
@@ -202,4 +202,4 @@ Personal skills
 Interests
 =========
 
-DDD (Domain-Driven Design), software architecture, GNU/Linux, free software, image processing, computer vision, computer graphics, artificial intelligence.
+Software architecture, GNU/Linux, free software, blockchain, web3, image processing, computer vision, computer graphics, artificial intelligence, No-Code.
