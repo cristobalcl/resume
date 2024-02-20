@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: "Curriculum Vitae"
-date: "2022-08-18"
+date: "2024-02-20"
 slug: "cv"
 ---
 
@@ -10,13 +10,13 @@ slug: "cv"
 * **Phone:** +34 655 52 79 11
 * **Email:** [ccarnerolinan@gmail.com](ccarnerolinan@gmail.com)
 * **Personal web:** [https://cristobal.dev](https://cristobal.dev)
-* **LinkedIn:** [http://es.linkedin.com/in/ccarnerolinan/](http://es.linkedin.com/in/ccarnerolinan/)
+* **LinkedIn:** [http://www.linkedin.com/in/ccarnerolinan/](http://www.linkedin.com/in/ccarnerolinan/)
 * **Date of birth:** 12th February, 1981
 
 Summary
 =======
 
-AWS Solutions Architect certified with more than 10 years of professional experience designing, building and deploying server-side solutions in the cloud, for different industries like management consulting, energy and utilities, video games, and university research groups. Expertise in Backend Development, Data Engineering and DevOps. Fullstack web3 developer.
+Software Engineer with more than 15 years of professional experience in designing, building, and deploying robust server-side solutions across diverse cloud environments. My career spans multiple industries, including management consulting, healthcare, energy and utilities, video games, and academic research. I specialize in Backend Development, Data Engineering, and DevOps. Additionally, I possess a strong background in AI development, with practical experience using the OpenAI API and contributing to the LangChain project.
 
 Education
 =========
@@ -29,30 +29,31 @@ Education
 Certifications
 ==============
 
-* [⬡](https://www.youracclaim.com/badges/392317f0-0508-4901-b27c-4bb3cf924f2e/linked_in_profile) **[AWS Certified Solutions Architect – Associate](https://www.youracclaim.com/badges/392317f0-0508-4901-b27c-4bb3cf924f2e/linked_in_profile)**, Amazon Web Services.
+* [⬡](https://www.youracclaim.com/badges/392317f0-0508-4901-b27c-4bb3cf924f2e/linked_in_profile) **[AWS Certified Solutions Architect – Associate (until 2023)](https://www.youracclaim.com/badges/392317f0-0508-4901-b27c-4bb3cf924f2e/linked_in_profile)**, Amazon Web Services.
+* [⬡](https://www.coursera.org/account/accomplishments/verify/HXUS5GNYCCG7) **[Introduction to Machine Learning in Production](https://www.coursera.org/account/accomplishments/verify/HXUS5GNYCCG7)**, DeepLearning.AI.
 
 Experience
 ==========
 
-* Since Apr 2021 **Freelance**, *MLOps Engineer & DevOps*.
+* Since Apr 2021 **Contractor**, *MLOps Engineer & DevOps*.
 
-	+ MLOps and DevOps for one of the top 10 pharmaceutical companies as contractor.
+	+ MLOps and DevOps for one of the top 10 pharmaceutical companies.
 	+ Admin DKube/Kubeflow/Kubernetes infrastructure.
-	+ Create and deploy Kubeflow pipelines and models with KServe.
-	+ Work with DS teams to support them in all the stages of the ML lifecycle. That includes: creating proof of concepts, helping with specific parts of the code, deploying in production, creating utilities libraries and templates, custom Docker images, writing documentation, and training sessions.
-	+ Manage infrastructure with Terraform (for AWS) and GitLab CI pipelines for Business Analytics project.
+	+ Create and deploy Kubeflow pipelines, and models with KServe.
+	+ Work with data scientist teams to support them in all the stages of the ML lifecycle. That includes: creating proof of concepts, helping with specific parts of the code, deploying in production, develop utility libraries and templates, custom Docker images, writing documentation, and training sessions.
+	+ Manage AWS infrastructure using IaC (Infrastructure as Code) with Terraform, GitLab CI pipelines, and data engineering for Business Analytics project.
 * Nov 2018 - Mar 2021 **Cathedral Software**, *Senior Data Engineer & DevOps*.
 
-	+ Develop solutions for international client, one of the biggest management consulting firm.
-	+ Backend services for web applications using Django REST Framework for API, Celery for background tasks, and Django Channels for notitifications.
-	+ Work with Data Science team in order to design and implement cloud architecture solutions in both AWS & Azure, using Terraform.
-	+ Implement continuos integration with different stacks: CircleCI, Azure DevOps, Docker, Helm, Kubernetes.
+	+ Build solutions one of the biggest management consulting firms.
+	+ Backend services for web applications using Django REST Framework for API, Celery for background tasks, and Django Channels for notifications.
+	+ Work with Data Science team to design and implement cloud architecture solutions in both AWS & Azure, using Terraform.
+	+ Implement continuous integration with different stacks: CircleCI, Azure DevOps, Docker, Helm, and Kubernetes.
 * Feb 2018 - Nov 2018 **Virtually Live**, *Senior Server Engineer & DevOps*.
 
-	+ Independently responsible for designing full real-time data pipeline architecture from the ingestion of telemetry from live events (*Formula E*), processing, and serve the output stream data to mobile games at scale.
+	+ Responsible for designing full real-time data pipeline architecture from the ingestion of telemetry from live events (*Formula E*), processing, and serve the output stream data to mobile games at scale.
 	+ Implement the key parts of the architecture in Python using technologies like ZeroMQ, Kafka and Tornado.
 	+ Work closely with Data Science team to provide a stream processing framework using Apache Heron for their needs.
-	+ Deployment of a Kubernetes cluster in AWS using Ansible, including hosted applications using Helm, and continuos integration with Jenkins.
+	+ Deployment of a Kubernetes cluster in AWS using Ansible (before EKS existed), including hosted applications using Helm, and continuos integration with Jenkins.
 	+ Contributions to open source project Apache Heron in order to fix deployment to Kubernetes and complete its documentation.
 	+ Work with R&D department designing and developing a prototype for a real time computer vision app using deep learning with Keras.
 * 2017-2018 **Cathedral Software**, *Senior Software Engineer*.
@@ -119,25 +120,14 @@ Personal Projects
 * Since 2021 **Mukabe Land**, <https://mukabe.land>.
 
 	+ Web3 collaborative two-dimensional canvas, divided into lands, that are tradeable NFTs.
-	+ Responsible for all technical parts of the project: backend, frontend, smart contract, infrastructure, CI/CD.
-* 2020 – 2022 **EnRemo.to**, <https://enremo.to>.
-
-	+ Directory of tools for remote working built in less than 24h during COVID-19 as a No-Code project.
-	+ Job offers for remote positions in companies based in Spain.
-	+ Blog about remote working.
-* 2016 – 2018 **Mukabe**, <https://mukabe.com>.
-
-	+ *Mukabe* is the new way of navigate through information, the new social and online organization, and the new way to get visibility for you, your projects or your company.
-	+ Technologies: Python, Django, Celery, Redis, ElasticSearch, Ansible, Fabric, AWS, Social APIs (Instagram, Facebook, Google+), HTML5, CSS3, Bootstrap, JavaScript, JQuery.
-* 2015 – 2017 **RegaloInteligente**, <http://regalointeligente.com>.
-
-	+ Search engine of gifts with parameters like gender and age, and filter for prices.
-	+ Web and Android applications. Twitter bot with auto posting and automatic reply. Telegram bot.
-	+ Technologies: Python, Pyramid, MongoDB, ElasticSearch, Amazon Product Advertising API, Twitter API, Telegram Bot API, HTML5, CSS3, Bootstrap, JavaScript, JQuery.
+	+ Responsible for all technical parts of the project: backend, web frontend, smart contract, infrastructure, CI/CD.
 
 Free Software Projects
 ======================
 
+* Since 2023 **CLARA: Code Language Assistant & Repository Analyzer**, <https://github.com/SeednapseAI/clara>.
+
+	> AI tool to help developers understand and work with a code repository.
 * Since 2021 **Datacker**, <https://github.com/cristobalcl/datacker>.
 
 	> Convert your notebooks to runnable Docker images. The quickest way to bring Data Scientists work to production.
@@ -158,19 +148,19 @@ Computer skills
 ---------------
 
 **Languages:**
-	Python, Bash script, JavaScript, Elixir (*learning*).
+	Python, Bash script, JavaScript.
 
 **Software Engineering:**
 	TDD (Test-Driven Development), Clean Architecture, Scrum, Git-flow, Trunk-Based Development.
 
 **Databases:**
-	PostgreSQL, MongoDB, ElasticSearch, Redis.
+	PostgreSQL, MongoDB, ElasticSearch, Redis, Snowflake.
 
 **Frameworks:**
-	Django, Django REST framework, Celery, Airflow, Vue.
+	Django, Django REST framework, FastAPI, Celery, Airflow, Vue.
 
 **Infrastructure:**
-	Kubernetes, AWS, Azure, DigitalOcean.
+	Kubernetes, AWS, Azure, DigitalOcean, Supabase, Render, Vercel, Railway.
 
 **Deployment:**
 	Docker, Helm, Jenkins, Terraform, Ansible, Supervisor, Nginx.
@@ -178,11 +168,14 @@ Computer skills
 **Data Science:**
 	Kubeflow, KServe, DKube, Pandas, TensorFlow, Keras, JupyterLab.
 
+**AI:**
+	OpenAI API, LangChain (contributor), prompt engineering, Pinecone, ChromaDB.
+
 **Web3:**
-	Solidity, HardHat, Vyper, Brownie, web3.py, ether.js, Alchemy.
+	Solidity, HardHat, Vyper, Brownie, web3.py, ether.js, Alchemy API.
 
 **Environments:**
-	Git, Make, Vim/NeoVim, tmux, Bash, Fish.
+	Git, Make, Vim/NeoVim, tmux, Bash, Fish, Visual Studio Code.
 
 Personal skills
 ---------------
@@ -202,4 +195,4 @@ Personal skills
 Interests
 =========
 
-DDD (Domain-Driven Design), software architecture, GNU/Linux, free software, image processing, computer vision, computer graphics, artificial intelligence.
+Software architecture, GNU/Linux, free software, blockchain, web3, image processing, computer vision, computer graphics, artificial intelligence, No-Code.
