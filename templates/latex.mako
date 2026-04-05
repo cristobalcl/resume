@@ -16,9 +16,7 @@
 %% moderncv themes
 \moderncvtheme[${config["color"]}]{classic} % optional argument are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
 
-\moderncvicons{awesome}
-
-\usepackage{fontawesome}
+\moderncvicons{symbols}
 
 \usepackage[utf8]{inputenc}
 \usepackage{color}

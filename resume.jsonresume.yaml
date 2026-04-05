@@ -1,0 +1,150 @@
+basics:
+  name: Cristobal Carnero Linan
+  label: Software Engineer
+  image: cristobal.png
+  email: ccarnerolinan@gmail.com
+  phone: "+34 655 52 79 11"
+  url: https://cristobal.dev
+  summary: >-
+    Software Engineer with more than 15 years of experience designing,
+    building, and deploying robust backend systems and data platforms across
+    healthcare, consulting, energy, gaming, and research domains.
+  location:
+    city: Malaga
+    region: Andalusia
+    countryCode: ES
+  profiles:
+    - network: LinkedIn
+      username: ccarnerolinan
+      url: https://www.linkedin.com/in/ccarnerolinan/
+    - network: GitHub
+      username: cristobalcl
+      url: https://github.com/cristobalcl
+
+work:
+  - name: Contractor
+    position: MLOps Engineer and DevOps
+    startDate: "2021-04"
+    endDate: present
+    summary: MLOps and DevOps for a top pharmaceutical company.
+    highlights:
+      - Administered DKube, Kubeflow, and Kubernetes infrastructure.
+      - Created and deployed Kubeflow pipelines and KServe models.
+      - Managed AWS infrastructure with Terraform and GitLab CI.
+  - name: Cathedral Software
+    position: Senior Data Engineer and DevOps
+    startDate: "2018-11"
+    endDate: "2021-03"
+    highlights:
+      - Built backend services with Django REST Framework and Celery.
+      - Designed cloud architectures in AWS and Azure with Terraform.
+      - Implemented CI/CD with Docker, Helm, Kubernetes, and Azure DevOps.
+  - name: Virtually Live
+    position: Senior Server Engineer and DevOps
+    startDate: "2018-02"
+    endDate: "2018-11"
+    highlights:
+      - Designed real-time data pipelines for Formula E telemetry.
+      - Implemented core stream systems with Python, Kafka, and Tornado.
+      - Deployed and operated Kubernetes on AWS before EKS.
+  - name: VATIA Energia
+    position: Software Engineering Manager
+    startDate: "2015-01"
+    endDate: "2017-12"
+    highlights:
+      - Led design and development of an energy audit platform.
+      - Built APIs and task processing with Node.js and Celery.
+
+education:
+  - institution: Universidad de Malaga
+    area: Software Engineering and Artificial Intelligence
+    studyType: Master's Degree
+    startDate: "2009"
+    endDate: "2011"
+  - institution: Universidad de Malaga
+    area: Computer and Software Engineering
+    studyType: Bachelor's Degree
+    startDate: "2002"
+    endDate: "2007"
+
+certificates:
+  - name: AWS Certified Solutions Architect Associate
+    issuer: Amazon Web Services
+    date: "2023"
+    url: https://www.youracclaim.com/badges/392317f0-0508-4901-b27c-4bb3cf924f2e/linked_in_profile
+  - name: Introduction to Machine Learning in Production
+    issuer: DeepLearning.AI
+    date: "2021"
+    url: https://www.coursera.org/account/accomplishments/verify/HXUS5GNYCCG7
+
+projects:
+  - name: Mukabe Land
+    startDate: "2021"
+    description: Web3 collaborative canvas divided into NFT lands.
+    url: https://mukabe.land
+    highlights:
+      - Built backend, frontend, smart contracts, and infrastructure.
+  - name: CLARA
+    startDate: "2023"
+    description: Code Language Assistant and Repository Analyzer.
+    url: https://github.com/SeednapseAI/clara
+  - name: Datacker
+    startDate: "2021"
+    description: Convert notebooks to runnable Docker images.
+    url: https://github.com/cristobalcl/datacker
+
+skills:
+  - name: Languages
+    keywords:
+      - Python
+      - Bash
+      - JavaScript
+  - name: Backend and Data
+    keywords:
+      - Django
+      - FastAPI
+      - Celery
+      - Airflow
+      - PostgreSQL
+      - MongoDB
+      - Redis
+      - Snowflake
+  - name: Infrastructure
+    keywords:
+      - Kubernetes
+      - AWS
+      - Azure
+      - Terraform
+      - Docker
+      - Helm
+      - Ansible
+  - name: AI and MLOps
+    keywords:
+      - OpenAI API
+      - LangChain
+      - Kubeflow
+      - KServe
+      - TensorFlow
+      - Keras
+
+languages:
+  - language: Spanish
+    fluency: Native
+  - language: English
+    fluency: Fluent
+
+interests:
+  - name: Architecture
+    keywords:
+      - Software architecture
+      - Distributed systems
+  - name: Open Source
+    keywords:
+      - GNU/Linux
+      - Free software
+  - name: AI
+    keywords:
+      - Machine learning
+      - Prompt engineering
+
+references: []
